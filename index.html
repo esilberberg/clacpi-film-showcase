@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>CLACPI Film Screening</title>
+</head>
+<body>
+ <header>
+    <div class="navbar">
+        <div class="logo"><a href="index.html"><img src="media\logo-old.jpg" id="logo"></a></div>
+        <ul class="links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="filmmakers.html">Filmmakers</a></li> 
+        </ul>
+        <a href="https://www.eventbrite.com/e/cine-memoria-y-resistencia-indigenous-film-showcase-tickets-58677300385" target="_blank" class="action-btn">Register</a>
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="filmmakers.html">Filmmakers</a></li>
+        <li><a href="https://www.eventbrite.com/e/cine-memoria-y-resistencia-indigenous-film-showcase-tickets-58677300385" target="_blank" rel="noopener noreferrer" class="action-btn">Register</a></li>
+    </div>
+ </header>
+
+
+<section id="hero">
+    <img src="media\poster-OLD.jpg" alt="event poster">
+</section>
+
+
+ <script>
+    const toggleBtn = document.querySelector('.toggle-btn')
+    const toggleBtnIcon = document.querySelector('.toggle-btn i')
+    const dropdown = document.querySelector('.dropdown')
+
+    toggleBtn.onclick = function () {
+        dropdown.classList.toggle('open')
+        const isOpen = dropdown.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+ </script>
+</body>
+</html>

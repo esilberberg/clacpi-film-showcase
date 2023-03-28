@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>CLACPI Film Screening</title>
+</head>
+<body>
+ <header>
+    <div class="navbar">
+        <div class="logo"><a href="index.html"><img src="media\logo-old.jpg" id="logo"></a></div>
+        <ul class="links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="filmmakers.html">Filmmakers</a></li> 
+        </ul>
+        <a href="https://www.eventbrite.com/e/cine-memoria-y-resistencia-indigenous-film-showcase-tickets-58677300385" target="_blank" class="action-btn">Register</a>
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="filmmakers.html">Filmmakers</a></li>
+        <li><a href="https://www.eventbrite.com/e/cine-memoria-y-resistencia-indigenous-film-showcase-tickets-58677300385" target="_blank" rel="noopener noreferrer" class="action-btn">Register</a></li>
+    </div>
+ </header>
+
+<main>
+    <section id="schedule">
+        <h1>Thurs. April 27 | Fri. April 28</h1>
+        <h2>Thurs. April 27</h2>
+        <table>
+            <tr>
+                <td class="time">4:00-4:30 pm:</td>
+                <td>Welcome & Opening Ceremony By Elizabeth Ellis (Peoria), Assistant Professor of History and Jill Lane, Director of the Center for Latin American & Caribbean Studies</td>
+            </tr>
+            <tr>
+                <td class="time">4:30-4:45 pm:</td>
+                <td>Shorts Program<br><br>
+                    <i>El Cóndor Pasa</i> by Linaje Originarios (Embera, Colombia) – 5 min <br><br>
+                    <i>Abinodjic Madjinakini (L’Amendement)</i> by Kevin Papatie (Anishnabe) – 5 min <br><br>
+                    <i>El Rey Kong Oy</i> by Hola Combo (Mixe, Mexico) – 1 min</td>
+            </tr>
+            <tr>
+                <td class="time">4:45-5:45 pm:</td>
+                <td>Keynote presentation and Q&A with Yásnaya Aguilar Gilmoderated by Erica Wortham
+                    “Language Diversity, Indigenous Languages and National Estates: Multilingualism at the Cinema”</td>
+            </tr>
+            <tr>
+                <td class="time">6:00-6:20 pm:</td>
+                <td>Screening of <i>El Destetado/The Foreign Body</i> by Héctor Silvia Núñez (Wayuu, Venezuela)</td>
+            </tr>
+        </table>
+        <h2>Fri. April 28</h2>
+        <table>
+            <tr>
+                <td class="time">4:00-4:30 pm:</td>
+                <td>Welcome & Opening Ceremony By Elizabeth Ellis (Peoria), Assistant Professor of History and Jill Lane, Director of the Center for Latin American & Caribbean Studies</td>
+            </tr>
+            <tr>
+                <td class="time">4:30-4:45 pm:</td>
+                <td>Shorts Program<br><br>
+                    <i>El Cóndor Pasa</i> by Linaje Originarios (Embera, Colombia) – 5 min <br><br>
+                    <i>Abinodjic Madjinakini (L’Amendement)</i> by Kevin Papatie (Anishnabe) – 5 min <br><br>
+                    <i>El Rey Kong Oy</i> by Hola Combo (Mixe, Mexico) – 1 min</td>
+            </tr>
+            <tr>
+                <td class="time">4:45-5:45 pm:</td>
+                <td>Keynote presentation and Q&A with Yásnaya Aguilar Gilmoderated by Erica Wortham
+                    “Language Diversity, Indigenous Languages and National Estates: Multilingualism at the Cinema”</td>
+            </tr>
+            <tr>
+                <td class="time">6:00-6:20 pm:</td>
+                <td>Screening of <i>El Destetado/The Foreign Body</i> by Héctor Silvia Núñez (Wayuu, Venezuela)</td>
+            </tr>
+        </table>
+
+
+    </section>
+</main>
+
+ <script>
+    const toggleBtn = document.querySelector('.toggle-btn')
+    const toggleBtnIcon = document.querySelector('.toggle-btn i')
+    const dropdown = document.querySelector('.dropdown')
+
+    toggleBtn.onclick = function () {
+        dropdown.classList.toggle('open')
+        const isOpen = dropdown.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+ </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>CLACPI Film Screening</title>
+</head>
+<body>
+ <header>
+    <div class="navbar">
+        <div class="logo"><a href="index.html"><img src="media\logo-old.jpg" id="logo"></a></div>
+        <ul class="links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="filmmakers.html">Filmmakers</a></li> 
+        </ul>
+        <a href="https://www.eventbrite.com/e/cine-memoria-y-resistencia-indigenous-film-showcase-tickets-58677300385" target="_blank" class="action-btn">Register</a>
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="dropdown">
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="filmmakers.html">Filmmakers</a></li>
+        <li><a href="https://www.eventbrite.com/e/cine-memoria-y-resistencia-indigenous-film-showcase-tickets-58677300385" target="_blank" rel="noopener noreferrer" class="action-btn">Register</a></li>
+    </div>
+ </header>
+
+<main>
+
+    <h1>Filmmakers</h1>
+    <div class="filmmaker">
+        <img src="media\filmmakers\David-Hernandez-Palmar.jpg" alt="Photo of David Hernandez Palmar by Alexander Klebe.">
+        <h2>David Hernández Palmar</h2>
+        <p><i>Wayuu, IIPUANA Clan, Colombia, Venezuela</i></p>
+        <p> David is a filmmaker, independent curator and film programmer with recognized experience in the Latin American region. He is also a photographer, journalist, researcher and producer of several audiovisual works that have portrayed the Wayuu world. He has co-directed films such as: “Owners of The Water”, “Wounmainkat“. With the short film “The Foreign Body“, World Premiere in competition at the Toronto International Film Festival TIFF and Winner of the First Prize at FICMAYAB (13th International Festival of Film and Communication of Indigenous Peoples), he began his career as a Film Producer. He is currently producer of “A son”, a first feature film project in development by Venezuelan filmmaker Héctor Silva Núñez; producer of “The Dusk of the Amazon” a documentary feature in production by Alvaro Sarmiento and Diego Sarmiento | Quechua, Perú); producer of “Suggunya 1698. The key to Darién”, a documentary feature film project in development by Olowaili Green | Guna Dule, Colombia and David Sierra; co – director with Marbel Vanegas | Wayuu Jusayu, Colombia, of “Searching for the marks of the Asho´ojushi”, a documentary feature film project in development.</p>
+        <p>Other positions David holds: Curator of Latin American and Caribbean Film specializing in Indigenous Film / Member of the Wayuu People Communications Network / Director of the Indigenous Audiovisual Foundation Wayaakua / Curator and Programmer of the Wayuu Film and Video Showcase / Curator and Programmer of the International Indigenous Film Showcase of Venezuela MICIV / Former Advisor for special selection NATIVe of the Berlinale International Film Festival  / / Former Political Advisor for CLACPI  /  Member of The Indigenous Media and Communication Caucus / Member of the Programmers of Color Collective POC</p>
+        <p>You can find David on Twitter: <a href="https://twitter.com/davidhpalmar">@davidhpalmar</a></p>
+        
+    </div>
+    <div class="filmmaker">
+        <img src="media\filmmakers\Mariano-Estrada.jpg" alt="">
+        <h2>Mariano Estrada </h2>
+        <p><i>San Manuel, municipio de Palenque, Chiapas, México</i></p>
+        <p>Es realizador audiovisual y comunicador tseltal originario de la comunidad San Manuel, municipio de Palenque, Chiapas. Interesado en las luchas de su comunidad, a los 15 años se integró en el Comité de Defensa por la Libertad Indígena-Xi’nich, lo que le permitió asistir a un taller de formación audiovisual organizado por el entonces Instituto Nacional Indigenista, en 1992. En 1993 fundó el área de comunicación de la organización Xi’nich. Por su responsabilidad comunitaria, ha realizado su trabajo durante más de veinticinco años, tanto dentro como fuera de la organización. De 1993 a 2014 realizó más de cincuenta videos, entre los que figuran cortos y mediometrajes documentales y cápsulas informativas.  
+        Actualmente es miembro fundador de “Tseltal Bachajón Comunicación”, organización que forma parte de la Coordinadora Latinoamericana de Cine y Comunicación de los Pueblos Indígenas, en donde fué coordinador general para 2015-2022.
+        </p>
+    </div>
+
+</main>
+
+ <script>
+    const toggleBtn = document.querySelector('.toggle-btn')
+    const toggleBtnIcon = document.querySelector('.toggle-btn i')
+    const dropdown = document.querySelector('.dropdown')
+
+    toggleBtn.onclick = function () {
+        dropdown.classList.toggle('open')
+        const isOpen = dropdown.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+ </script>
+</body>
+</html>
