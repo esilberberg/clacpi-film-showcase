@@ -217,7 +217,7 @@ main a:hover {
 #hero img {
   width: 100%;
   max-width: 700px;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 figcaption {
   font-style: italic;
