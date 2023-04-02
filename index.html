@@ -4,53 +4,202 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/1d9765704f.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="styles.css">
-    <title>CLACPI Film Screening</title>
+
+    <link rel="icon" type="image/x-icon" href="/media/favicon.jpg">
+    
+    <title>CLACPI Film Showcase 2023</title>
 </head>
 <body>
- <header>
-    <div class="navbar">
-        <div class="logo"><a href="index.html"><img src="media\logo-old.jpg" id="logo"></a></div>
-        <ul class="links">
-            <li><a href="about.html">About</a></li>
-            <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="filmmakers.html">Filmmakers</a></li> 
-        </ul>
-        <a href="https://www.eventbrite.com/e/cine-memoria-y-resistencia-indigenous-film-showcase-tickets-58677300385" target="_blank" class="action-btn">Register</a>
-        <div class="toggle-btn">
-            <i class="fa-solid fa-bars"></i>
+    <nav>
+      <div class="nav-wrapper">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <div class="logo"><a href="index.html"><img src="/media/favicon.jpg" id="logo"></a></div>
+          </div>
         </div>
-    </div>
-    <div class="dropdown">
-        <li><a href="about.html">About</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="filmmakers.html">Filmmakers</a></li>
-        <li><a href="https://www.eventbrite.com/e/cine-memoria-y-resistencia-indigenous-film-showcase-tickets-58677300385" target="_blank" rel="noopener noreferrer" class="action-btn">Register</a></li>
-    </div>
- </header>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+                <li id="register"><a href="https://clacpi2023.eventbrite.com/
+                  " target="_blank">Register</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="hero">
+          <div class="hero-info">
+              <h1>Miradas Desde el Origen de la Madre Tierra - Cine Para la Resistencia</h1>
+              <p><i>A showcase of indigenous films presented by</i></p> 
+              <p><a target="blank" href="https://clacpi.org/">The Coordinadora Latinoaméricana de Cine y<br>Comunicación de los Pueblos Indígenas (CLACPI)</a></p>
+              <p><a href="#schedule"><i class="fa-solid fa-calendar-days"></i> &nbsp;April 27<sup>th</sup> & 28<sup>th</sup> 2023</a></p>
+              <p><a target="_blank" href="https://goo.gl/maps/7RR6C9TJMkZxLpbZ7"><i class="fa-solid fa-location-dot"></i> &nbsp;NYU KJCC</a></p>
+              
+              <p><a target="_blank" href="https://www.facebook.com/events/1272860286997563"><i class="fa-brands fa-facebook"></i> &nbsp;NYU CLACS</a></p>
+          </div>
 
+          <figure>
+          <img src="media/main-image.jpg" alt="&#169; Chirapaq">
+          <figcaption>&#169; Chirapaq</figcaption>
+          </figure>
 
-<section id="hero">
-    <img src="media\poster-OLD.jpg" alt="event poster">
-</section>
-
-
- <script>
-    const toggleBtn = document.querySelector('.toggle-btn')
-    const toggleBtnIcon = document.querySelector('.toggle-btn i')
-    const dropdown = document.querySelector('.dropdown')
-
-    toggleBtn.onclick = function () {
-        dropdown.classList.toggle('open')
-        const isOpen = dropdown.classList.contains('open')
-
-        toggleBtnIcon.classList = isOpen
-        ? 'fa-solid fa-xmark'
-        : 'fa-solid fa-bars'
-    }
- </script>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+          <p>
+              The Center for Latin American and Caribbean Studies is pleased to host a program presented by the Coordinadora Latinoaméricana de cine y comunicación de los pueblos indígenas (CLACPI)</a> at the KJCC at NYU on April 27-28, 2023. This Program is a Side Event of the <a target="blank" href="https://social.desa.un.org/issues/indigenous-peoples/unpfii/unpfii-twenty-second-session-17-28-april-2023">2023 UN Permanent Forum on Indigenous Issues.</a></p>
+          <p>
+              Highlights of the program include an indigenous film showcase curated by Nelly Kuiru Castro (Murui from the Maconian Amazon in Colombia; Coordinadora, CLACPI), Mariano Estrada (Tseltal, Mexico; President of CLACPI-Mexico), David Hernández Palmar (Wayuu/lipuana Clan, Venezuela; Political Advisor CLACPI), and Norma Rocío Gómez Semanate.
+          </p>
+          <h3>CLACPI</h3>
+          <p>
+              CLACPI was founded in 1985 and is currently the largest collective of indigenous filmmakers in Latin America. They promote the use of media as a tool of cultural affirmation and social transformation for indigenous communities. CLACPI produces and disseminates audiovisual materials about indigenous cultures and other issues of interest for their collective organizations. They also focus on grassroots media training and workshops to promote agency and self-representation among indigenous communities.
+          </p>
+          <h3>Supporters</h3>
+          <p>
+              This program is made possible in collaboration with:
+          </p>
+          <ul id="supporters">
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.kjcc.org/">King Juan Carlos Center</a>
+              </li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://wp.nyu.edu/cmch/">Center for Media, Culture and History</a>
+              </li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://as.nyu.edu/research-centers/clacs/languages/runasimi-outreach-collective.html">Runasimi Outreach Collective</a>
+              </li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://as.nyu.edu/research-centers/npf.html">Native Studies Forum</a>
+              </li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://festival.si.edu/">Smithsonian Folklife</a>
+              </li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://tisch.nyu.edu/cinema-studies/miap">Tisch Moving Image Archiving and Preservation (MIAP)</a>
+              </li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.queensu.ca/filmandmedia/other-resources/vulnerable-media-lab">Queens University Vulnerable Media Lab</a>
+              </li>
+          </ul>
+      </section>
+      <section id="schedule">
+        <h2>Schedule</h2>
+        <p>All events will be held at <a target="_blank" href="https://goo.gl/maps/7RR6C9TJMkZxLpbZ7"><i class="fa-solid fa-location-dot"></i> NYU KJCC</a></p>
+        <h3>Thurs. April 27</h3>
+            <table>
+                <tr>
+                    <td class="time">12:20pm</td>
+                    <td>Welcome & Opening Ceremony</td>
+                </tr>
+                <tr>
+                    <td class="time">2:00pm</td>
+                    <td>Short Films</td>
+                </tr>
+                <tr>
+                    <td class="time">3:00pm</td>
+                    <td>Roundtable: Living Archives and Strategies for Sovereignty</td>
+                </tr>
+                <tr>
+                    <td class="time">5:00pm</td>
+                    <td>Short Films</td>
+                </tr>
+                <tr>
+                    <td class="time">7:00pm</td>
+                    <td>Book Launch: <i>Nación Anti</i></td>
+                </tr>
+            </table>
+        <h3>Fri. April 28</h3>
+        <table>
+            <tr>
+                <td class="time">12:00pm</td>
+                <td>Indigenous Right to Communication</td>
+            </tr>
+            <tr>
+                <td class="time">1:00pm</td>
+                <td>Short Films</td>
+            </tr>
+            <tr>
+                <td class="time">3:00pm</td>
+                <td>ROC Raymi (Reception)</td>
+            </tr>
+            <tr>
+                <td class="time">5:00pm</td>
+                <td>Short Films</td>
+            </tr>
+            <tr>
+                <td class="time">7:00pm</td>
+                <td>Feature Film</td>
+            </tr>
+        </table>
+    </section>
+    <section id="organizers">
+      <h2>Organizers</h2>
+      <div class="organizer">
+          <img src="/media/organizers/gomez.png" alt="Picture of Rocío Gómez Semanate">
+          <h3>Rocío Gómez Semanate</h3>
+          <p class="title"></p>
+          <p>Passionate about the art and culture of the Kitu Kara people, Rocio holds a position as Coordinator and General Producer of the "WarmiCine" project, a creative laboratory for women, as well as MuyuyCine, an audiovisual seedbed carried out in various Ecuadorian locations. Both training and audiovisual production processes seek to weave, complement and highlight the presence of Indigenous Peoples.
+          </p>
+          <p>Rocio has been the recipient of several accolades as cultural manager for the promotion of cinema and audiovisuals at the national level, as well as recipient of municipal participatory funds with interdisciplinary projects. She has also been the recipient of national recognitions such as the Mushuk Nina award for the contribution to the peoples and nationalities with audiovisual art and the Municipal Recognition of Quito for the contribution to the development of culture.</p>
+          <p>Among her audiovisual productions, "Somos pueblo," "Trenzando vida," "Manuela 1945," "Kitu Kara," and "La Yumba" stand out. Rocio's works are the result of a process of formation and identity reflection surrounding the presence of the Kitu Kara people and their practices  as urban indigenous people in the capital of Ecuador. She has worked as field producer and presenter of the television series “Ecuador Ancestral” and the feature film from Esmeralda “Semillas de Lucha.” Co-director of several indigenous film festivals and exhibitions such as the recent FIC CLACPI Ecuador 2022. Social Communicator, Visual Anthropologist and cultural manager, scriptwriter, filmmaker, audiovisual producer and popular trainer, ancestral dancer and cultural activist.</p>
+      </div>
+      <div class="organizer">
+          <img src="/media/organizers/estrada.png" alt="Picture of Mariano Estrada">
+          <h3>Mariano Estrada</h3>
+          <p class="title">Tseltal, Mexico; President of CLACPI-Mexico</p>
+          <p>
+              Mariano Estrada is an audiovisual producer and Tzeltal communicator originally from the San Manuel community, municipality of Palenque, Chiapas. Interested in the struggles of his community, at the age of 15, he joined the Committee for the Defense of Indigenous Freedom-Xi'nich, which allowed him to attend an audiovisual training workshop organized by the then National Indigenous Institute, in 1992. In 1993 he founded the Communication sector of ​​the Xi'nich organization. With great responsibility for his community, he has carried out his work for more than twenty-five years, both inside and outside the organization. From 1993 to 2014 he made more than fifty productions, including short and medium-length documentaries and informative capsules.
+          </p>
+          <p>
+              Mariano is currently a founding member of "Tseltal Bachajón Comunicación", an organization that is part of the Latin American Coordinator of Cinema and Communication of Indigenous Peoples (CLACPI), where he served as general coordinator from 2015 - 2022.
+          </p>
+      </div>
+      <div class="organizer">
+          <img src="/media/organizers/hernandez.png" alt="Picture of David Hernández Palmar">
+          <h3>David Hernández Palmar</h3>
+          <p class="title">Wayuu/lipuana Clan, Venezuela; Political Advisor CLACPI</p>
+          <p>
+            <a target="blank" href="https://twitter.com/davidhpalmar/"><i class="fa-brands fa-twitter"></i> @davidhpalmar</a>
+          </p>
+        
+          <p>
+               David is a filmmaker, independent curator and film programmer with recognized experience in the Latin American region. He is also a photographer, journalist, researcher and producer of several audiovisual works that have portrayed the Wayuu world. He has co-directed films such as: “Owners of The Water”, “Wounmainkat“. With the short film “The Foreign Body“, World Premiere in competition at the Toronto International Film Festival TIFF and Winner of the First Prize at FICMAYAB (13th International Festival of Film and Communication of Indigenous Peoples), he began his career as a Film Producer. He is currently producer of “A son”, a first feature film project in development by Venezuelan filmmaker Héctor Silva Núñez; producer of “The Dusk of the Amazon” a documentary feature in production by Alvaro Sarmiento and Diego Sarmiento | Quechua, Perú); producer of “Suggunya 1698. The key to Darién”, a documentary feature film project in development by Olowaili Green | Guna Dule, Colombia and David Sierra; co-director with Marbel Vanegas | Wayuu Jusayu, Colombia, of “Searching for the marks of the Asho´ojushi”, a documentary feature film project in development.
+          </p>
+          <p>
+              Other positions David holds: Curator of Latin American and Caribbean Film specializing in Indigenous Film / Member of the Wayuu People Communications Network / Director of the Indigenous Audiovisual Foundation Wayaakua / Curator and Programmer of the Wayuu Film and Video Showcase / Curator and Programmer of the International Indigenous Film Showcase of Venezuela MICIV / Former Advisor for special selection NATIVe of the Berlinale International Film Festival  / / Former Political Advisor for CLACPI  /  Member of The Indigenous Media and Communication Caucus / Member of the Programmers of Color Collective POC.
+          </p>
+          
+      </div>
+      <div class="organizer">
+          <img src="/media/organizers/kuiru.png" alt="Picture of Nelly Kuiru">
+          <h3>Nelly Kuiru</h3>
+          <h3>Traditional Name: Moniyango (Tree of Abundance)</h3>
+          <p class="title">Murui from the Maconian Amazon in Colombia; Coordinadora, CLACPI</p>
+          <p>
+              Nelly belongs to the Murui-M+n+ka (Uitoto) indigenous people of La Chorrera (department of Amazonas, Colombia). In 2019, she graduated as an indigenous communicator with an emphasis in audiovisual and radio media at the School of Indigenous Communication of the Macro-Amazon "Ka+ Jana Uai" (The Voice of our Image). In 2020, she completed higher studies in Film Direction and Audiovisual Media (Elíseo Subiela National School of Cinema and Audiovisual Arts. Buenos Aires, Argentina). From 2012 to 2021, she was the National Commissioner for Communication of the Indigenous Peoples of the Macro-Amazon of the ONIC (National Indigenous Organization of Colombia). She is co-founder of the National Communication Commission of the Indigenous Peoples of Colombia (CONCIP), co-founder of Ciber Amazonas (Network of Women Communicators of the Amazon Basin) and co-founder of the Pan-Amazonian Network of Indigenous Women Communicators. She is also the founder and coordinator of the first Indigenous Communication School of the Colombian Amazon ("Ka+ Jana Uai" / La Voz de Nuestra Imagen-). Founder of the first association of indigenous women in the department of Amazonas (Nimaira-Amazonas). Responsible for the negotiations with the Government of the Republic of Colombia, together with other representatives of the Indigenous Organizations, for the creation of the Public Communication Policy of and for the Indigenous Peoples of Colombia and the National Television Plan.
+          </p>
+          <p>
+              Since 2022 she has been a tutor in training processes in audiovisual mediation and audience creation (Proimagenes & Mincultura). She is also an advisor to the Department of Research, Information and Communication Systems of the ONIC (National Indigenous Organization of Colombia). Recently, she has been appointed as General Coordinator of the Latin American Coordinator of Cinema and Communication of Indigenous Peoples (CLACPI).
+          </p>
+          <p>
+              Nelly is director of the short film entitled "RA" (Plant of wisdom to balance the world) that was part of the television series "El Buen Vivir" for Canal Tr3ce. This work was screened at the FICCI (Cartagena de Indias International Film Festival) and nominated for the India Catalina Awards of the Colombian Audiovisual Industry in 2020. In that same year she was the director of the short film entitled "Mujeres Umari. Weavers of stories and knowledge” for the television series “El Buen Vivir” on Canal Tr3ce. Director, in 2021, of the short film entitled "KIYEDECAGO" (Woman with the sweet pineapple) for the Tr3ce channel. In that same year she was the director of the short film entitled «Yarokamena. La resistencia” which was screened at the FICCI (Cartagena de Indias International Film Festival) / FICCI Interruptus. Director, in 2022, of chapter 3 / short film entitled "Ka+ Jairag+ma Iga+" (Ancestral ties) for the television series "El Buen Vivir" on Canal Tr3ce. Over the last 20 years, she has worked for multiple important production companies, including Netflix, Amazon Prime, Discovery Channel, BBC London, as well as for various national channels and production companies in Colombia (Señal Colombia, Canal Tr3ce, Atarraya films, Negrita films, Endémica studios, Caracol TV…). She has been a field producer for different international events, among which includes the BAM (Bogotá Audiovisual Market) Amazonas.
+          </p>
+      </div>
+  </section>
+  </main>  
+  <footer>Miradas Desde el Origen de la Madre Tierra - Cine Para la Resistencia 2023</footer>  
 </body>
 </html>
