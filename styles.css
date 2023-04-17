@@ -37,6 +37,7 @@ nav {
     width: 80px;
     border: 2px solid var(--primary);
     border-radius: 100px;
+    
 }
   
 .nav-header > .nav-title {
@@ -60,8 +61,13 @@ nav {
 .nav-links i {
   color: white;
   padding: 0;
+  margin: 0;
 }
 
+i.fa-solid.fa-globe {
+  padding: 0 5px 0 0;
+  margin: 0;
+}
 
 .nav-links > ul li a{
     display: block;
@@ -120,12 +126,14 @@ nav {
       position: absolute;
       right: 0px;
       top: 0px;
+      
     }
     .nav-btn > label {
       display: inline-block;
       width: 50px;
       height: 50px;
       padding: 13px;
+      cursor: pointer;
     }
     .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       background-color: rgba(0, 0, 0, 0.3);
@@ -143,7 +151,7 @@ nav {
       background-color: #333;
       height: 0px;
       transition: all 0.3s ease-in;
-      overflow-y: hidden;
+      overflow: hidden;
       top: 50px;
       left: 0px;
      
@@ -167,13 +175,16 @@ nav {
     }
     #nav-check:checked ~ .nav-links {
       height: calc(100vh - 50px);
-      overflow-y: auto;
+      /* overflow-y: auto; */
+    }
+    #nav-check:checked ~ .nav-header #logo {
+      display: none;
     }
   }
 
 /* ----- MAIN ----- */
 main {
-  padding: 0 2rem 4rem 2rem;
+  padding: 0 1rem 4rem 1rem;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -234,15 +245,44 @@ figcaption {
 
 /* ----- SCHEDULE ----- */
 
+.day-schedule p {
+  margin: 0;
+}
+
+.day-schedule h3 {
+  font-size: 1.5rem;
+  padding: 2.5rem 0 1rem 0;
+}
+
+.event-wrapper {
+  margin-bottom: 2rem;
+}
+
 .time {
-  width: 100px;
-  font-weight: 200;
+  color: var(--primary);
+  padding-bottom: 0.3rem;
 }
 
-tr {
-  height: 2rem;
+.event-title {
+  font-weight: bold;
 }
 
+.film-wrapper, .event-description {
+  padding: 10px 0 10px 30px;
+}
+
+.event-description {
+  font-size: 0.9rem;
+}
+
+.film-title {
+  font-style: italic;
+  color: var(--primary);
+}
+
+.film-description {
+  font-size: 0.7rem;
+}
 
 /* ----- ORGANIZERS ----- */
 
