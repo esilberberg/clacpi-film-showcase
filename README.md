@@ -1,5 +1,5 @@
-# clacpi-film-showcase
-A showcase of Indigenous films presented by:
+# CLACPI Showcase of Indigenous Films Website
+Presented by:
 
 Coordinadora Latinoaméricana de Cine y Comunicación de los Pueblos Indígenas (CLACPI)
 
