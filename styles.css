@@ -182,9 +182,29 @@ main {
     color: var(--secondary);
 }
 
-.banner img {
+.banner-img img {
     width: 300px;
     padding-left: 2rem;
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.sponsors img {
+    width: 150px;
+    height: 50px;
+    /* background-color: var(--main); */
+    padding: 0;
+    border-radius: 5px;
+}
+
+.sponsors img:hover {
+    /* background-color: var(--light); */
+    cursor: pointer;
 }
 
 .register-btn {
@@ -222,6 +242,13 @@ main {
     }
 }
 
+@media (max-width: 800px) {
+    .sponsors img {
+        width: 100px;
+        height: 40px;
+    }
+}
+
 @media (max-width: 700px) {
     .banner {
         display: block;
@@ -242,9 +269,13 @@ main {
         justify-content: center;
         align-items: center;
     }
-    .banner img {
+    .banner-img img {
         width: 80%;
         padding: 2rem 0;
+    }
+    .sponsors img {
+        width: 150px;
+        height: 50px;
     }
 }
 
@@ -262,6 +293,13 @@ main {
     }
     #title-secondary {
         border-bottom: none;
+    }
+    .sponsors {
+        gap: 5px;
+    }
+    .sponsors img {
+        width: 100px;
+        height: 40px;
     }
 
 }
@@ -284,35 +322,9 @@ main {
     box-sizing: border-box;
 }
 
-.sponsors {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 5rem 0;
-}
-
-.sponsors img {
-    width: 250px;
-    height: 150px;
-    background-color: var(--main);
-    padding: 2rem;
-    border-radius: 5px;
-}
-
-.sponsors img:hover {
-    background-color: var(--light);
-    cursor: pointer;
-}
-
 @media (max-width: 900px) {
     .about-details {
         display:block;
-    }
-    .sponsors {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
     }
 }
 
@@ -355,24 +367,18 @@ main {
 }
 
 .secondary-organizers {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.secondary-organizers .person img {
-    width: 100px;
-}
-.secondary-organizers .person-bio {
-    max-width: 400px
+.secondary-organizers h2{
+    text-align: center;  
 }
 
 
 
 footer {
-    margin: 0;
+    margin: 180px 0 0 0;
     padding: 0;
     background-color: var(--dark);
 }
@@ -420,15 +426,17 @@ footer h1 {
     list-style: none;
 }
 
-.footer-links a {
+footer a {
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration: none;
 }
 
-.footer-links a:hover {
+.footer-links a {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer a:hover {
     color: var(--light)
 }
 
