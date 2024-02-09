@@ -1,2 +1,6 @@
 # clacpi-film-showcase
-website for CLACPI Indigenous Film Showcase 2023
+A showcase of Indigenous films presented by:
+
+Coordinadora Latinoaméricana de Cine y Comunicación de los Pueblos Indígenas (CLACPI)
+
+Side Event of the UN Permanent Forum on Indigenous Issues.
