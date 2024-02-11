@@ -166,7 +166,7 @@ main {
 
 .banner-text p {
     font-size: 1.2rem;
-    max-width: 70%;
+    width: 70%;
 }
 
 .banner-text a {
@@ -183,28 +183,18 @@ main {
 }
 
 .banner-img img {
-    width: 300px;
+    width: 350px;
     padding-left: 2rem;
 }
 
-.sponsors {
+.presenter-logos {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
-    margin: 0;
+    align-items: center;
+    gap: 40px;
 }
-
-.sponsors img {
-    width: 150px;
-    height: 50px;
-    /* background-color: var(--main); */
-    padding: 0;
-    border-radius: 5px;
-}
-
-.sponsors img:hover {
-    /* background-color: var(--light); */
-    cursor: pointer;
+.presenter-logos img {
+    width: 200px;
 }
 
 .register-btn {
@@ -242,14 +232,7 @@ main {
     }
 }
 
-@media (max-width: 800px) {
-    .sponsors img {
-        width: 100px;
-        height: 40px;
-    }
-}
-
-@media (max-width: 700px) {
+@media (max-width: 850px) {
     .banner {
         display: block;
         margin-top: 110px;
@@ -262,7 +245,7 @@ main {
         font-size: 1.5rem;
     }
     .banner-text p {
-        max-width: 500px;
+        width: 100%;
     }
     .banner-img {
         display: flex;
@@ -273,9 +256,8 @@ main {
         width: 80%;
         padding: 2rem 0;
     }
-    .sponsors img {
-        width: 150px;
-        height: 50px;
+    .presenter-logos img {
+        width: 80%;
     }
 }
 
@@ -289,19 +271,11 @@ main {
         padding-bottom: 1rem;
     }
     .banner-text p {
-        max-width: 300px;
+        width: 100%;
     }
     #title-secondary {
         border-bottom: none;
     }
-    .sponsors {
-        gap: 5px;
-    }
-    .sponsors img {
-        width: 100px;
-        height: 40px;
-    }
-
 }
 
 .section-heading {
@@ -320,6 +294,10 @@ main {
 .about-details p {
     flex: 1;
     box-sizing: border-box;
+}
+.sponsors h2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -372,7 +350,8 @@ main {
 }
 
 .secondary-organizers h2{
-    text-align: center;  
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif; 
 }
 
 
