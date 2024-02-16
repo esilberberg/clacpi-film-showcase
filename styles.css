@@ -151,6 +151,12 @@ main {
     padding: 0;
 }
 
+#title-showcase {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--dark);
+}
+
 #title-main {
     font-size: 5rem;
     color: #3DBCB2;
@@ -227,6 +233,9 @@ main {
         font-size: 1.2rem;
         max-width: 90%;
     }
+    #title-showcase {
+        font-size: 1.2rem;
+    }
     .banner-img {
         padding: 0;
     }
@@ -242,6 +251,9 @@ main {
         padding-bottom: 1rem;
     }
     #title-secondary {
+        font-size: 1.5rem;
+    }
+    #title-showcase {
         font-size: 1.5rem;
     }
     .banner-text p {
@@ -269,6 +281,9 @@ main {
         max-width: 300px;
         font-size: 1.2rem;
         padding-bottom: 1rem;
+    }
+    #title-showcase {
+        font-size: 1.2rem;
     }
     .banner-text p {
         width: 100%;
