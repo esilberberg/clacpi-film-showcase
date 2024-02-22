@@ -189,18 +189,22 @@ main {
 }
 
 .banner-img img {
-    width: 350px;
+    width: 400px;
     padding-left: 2rem;
 }
 
-.presenter-logos {
+.banner-presenters {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 40px;
+    gap: 10px;
 }
-.presenter-logos img {
-    width: 200px;
+.presenter {
+    width: 50%;
+    max-width: 300px;
+}
+
+.banner-logo-img {
+    width: 100%;
+    max-width: 180px;
 }
 
 .register-btn {
@@ -268,9 +272,6 @@ main {
         width: 80%;
         padding: 2rem 0;
     }
-    .presenter-logos img {
-        width: 80%;
-    }
 }
 
 @media (max-width: 600px) {
@@ -290,6 +291,15 @@ main {
     }
     #title-secondary {
         border-bottom: none;
+    }
+
+    .banner-presenters {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .presenter {
+        max-width: 200px;
     }
 }
 
@@ -312,7 +322,14 @@ main {
 }
 .sponsors h2 {
     font-family: 'Fjalla One', sans-serif;
-    text-align: center;
+}
+
+.sponsors a {
+    color: var(--main);
+}
+
+.sponsors a:hover {
+    color: var(--light);
 }
 
 @media (max-width: 900px) {
@@ -367,6 +384,17 @@ main {
 .secondary-organizers h2{
     text-align: center;
     font-family: 'Fjalla One', sans-serif; 
+}
+
+.secondary-organizers h3{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 0;
+    margin: 2.5rem 0 0 0;
+}
+
+.secondary-organizers p {
+    padding: 0;
+    margin: .5rem 0 1rem 0;
 }
 
 
