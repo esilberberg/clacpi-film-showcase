@@ -33,7 +33,13 @@
                     <li><a href="#schedule">Schedule</a></li>
                     <li><a href="#organizers">Organizers</a></li>
                     <li><a href="#"><i class="fa-solid fa-globe"></i> ESP</a></li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer" id="register">Register</a></li>
+                    <li class="dropdown" id="registerDropdown">
+                        <a href="#" id="register">Register &#9662;</a>
+                        <div class="dropdown-content" id="registerDropdownContent">
+                            <a href="https://events.nyu.edu/event/332778-territorialidades-juventudes-tejiendo-lo-visible-mira" target="_blank" rel="noopener noreferrer">Day 1: April 15</a>
+                            <a href="https://events.nyu.edu/event/332779-territorialidades-juventudes-tejiendo-lo-visible-mira" target="_blank" rel="noopener noreferrer">Day 2: April 16</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -52,15 +58,18 @@
                         </div>
                         <div class="presenter">
                             <p>Hosted by:</p>
-                            <a href="https://as.nyu.edu/research-centers/clacs.html" target="_blank" rel="noopener noreferrer"><img src="media/clacs-black.svg" alt="NYU CLACS" class="banner-logo-img"></a></</div>
+                            <a href="https://as.nyu.edu/research-centers/clacs.html" target="_blank" rel="noopener noreferrer"><img src="media/clacs-new-logo.png" alt="NYU CLACS" class="banner-logo-img"></a>
                         </div>
                     </div>
                     
                     <p>Side event of the 23<sup>rd</sup> Session of the UN Permanent Forum on Indigenous Issues.</p>
                     <p>April 15-16, 2024</p>
                     <p><a href="https://maps.app.goo.gl/RznLCD1AYRnyWSSdA" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i> NYU King Juan Carlos Center</a></p>
-                    
-                    <button class="register-btn">Register</button>
+                    <div class="registration-btns">
+                        <p>Register:</p>
+                        <button class="register-btn" onclick="window.open('https://events.nyu.edu/event/332778-territorialidades-juventudes-tejiendo-lo-visible-mira', '_blank');">April 15</button>
+                        <button class="register-btn" onclick="window.open('https://events.nyu.edu/event/332779-territorialidades-juventudes-tejiendo-lo-visible-mira', '_blank');">April 16</button>
+                    </div>
                 </div>
                 <div class="banner-img">
                     <img src="media/face_full.png" alt="Logo">
