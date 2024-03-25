@@ -95,7 +95,7 @@ body {
     display: none;
     position: absolute;
     background-color: gray;
-    min-width: 160px;
+    min-width: 118px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -348,13 +348,13 @@ main {
 
 .about-details {
     display: flex;
-    gap: 3rem;
+    justify-content: space-evenly;
 }
 
-.about-details p {
-    flex: 1;
-    box-sizing: border-box;
+.about-text {
+    width: 50%;
 }
+
 .sponsors h2 {
     font-family: 'Fjalla One', sans-serif;
 }
@@ -371,7 +371,12 @@ main {
     .about-details {
         display:block;
     }
+    .about-text {
+        width: 100%;
+    }
 }
+
+/* -------- SCHEDULE -------- */
 
 .schedule-content h3 {
     font-size: 2rem;
@@ -387,6 +392,44 @@ main {
 .schedule-content a:hover {
     color: var(--light);
 }
+
+/* -------- PANELS -------- */
+
+.panel {
+    margin-bottom: 4rem;
+}
+
+.panel-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.panel-content h3 {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.panel-date {
+    color: var(--main);
+    font-weight: 800;
+}
+
+.panel-content li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.panel-img {
+    text-align: center;
+}
+
+.panel-affiliation {
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* -------- BIOS -------- */
 
 .person {
     margin-bottom: 5rem;
