@@ -17,22 +17,29 @@ navbarLinks.addEventListener('click', (event) => {
 document.addEventListener("DOMContentLoaded", function () {
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
 
-        const targetId = this.getAttribute("href").substring(1);
-        const targetElement = document.getElementById(targetId);
+            const targetId = this.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
 
-        if (targetElement) {
-          const offset = document.querySelector('.navbar').offsetHeight;
-          const targetPosition = targetElement.offsetTop - offset;
+            if (targetElement) {
+                let offset;
+                // Check if mobile view
+                if (window.innerWidth <= 768) {
+                   offset = 100;
+                } else {
+                    offset = document.querySelector('.navbar').offsetHeight; // Use standard navbar height
+                }
 
-          window.scrollTo({
-            top: targetPosition,
-            behavior: "smooth"
-          });
-        }
-      });
+                const targetPosition = targetElement.offsetTop - offset;
+
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: "smooth"
+                });
+            }
+        });
     });
 });
 
