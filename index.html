@@ -10,20 +10,25 @@
 </head>
 <body>
     <nav class="hamburger-nav">
+      <div id="languages">
+        <i class="fa-solid fa-language"></i>
+        <button id="spanishBtn">Español</button>
+        <button id="englishBtn">English</button>
+      </div>
         <div class="hamburger-menu">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
         <ul class="navbar-links">
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#panels">Panels</a></li>
-          <li><a href="#organizers">Organizers</a></li>
-          <li><a href="">Español</a></li>
+          <li><a href="#schedule" id="scheduleLink">Schedule</a></li>
+          <li><a href="#panels" id="panelsLink">Panels</a></li>
+          <li><a href="#about" id="aboutLink">About</a></li>
+          <li><a href="#organizers" id="organizersLink">Organizers</a></li>
           <ul class="socials">
-            <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.facebook.com/clacpi/?profile_tab_item_selected=about&_rdr" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/clacpi/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/user/Clacpi" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
           </ul>
         </ul>
       </nav>
@@ -31,27 +36,49 @@
         <section class="banner">
             <div class="banner-content">
                 <div class="title">
-                    <h2>V Muestra de Cine Indígena CLACPI</h2>
+                    <h2 id="title1">V Muestra de Cine Indígena CLACPI</h2>
                     <h1>Cine Indígena.</h1>
                     <h1>La vida bajo una propia mirada</h1>
-                    <h2>April 24 &ndash; 25 2025</h2>
+                    <h2 id="date">April 24 & 25 2025</h2>
                     <h2><i class="fa-solid fa-location-dot"></i> NYU King Juan Carlos Center</h2>
-                    <p>Side event of the 24th Session of the UN Permanent Forum on Indigenous Issues</p>
-                    <button class="register">Register</button>
+                    <p id="title2">Side event of the 24th Session of the UN Permanent Forum on Indigenous Issues</p>
+                    <button class="register" id="registerBtn">Register</button>
                 </div>
                 <img src="2025media/mujer-indigena.png" alt="" srcset="">
             </div>
         </section>
         <section id="sponsors">
-            <div class="sponsor"><img src="2025media/logo-clacpi.png" alt=""></div>
-            <div class="sponsor"><img src="2025media/logo-clacs.png" alt=""></div>
+            <div class="sponsor"><img src="2025media/logo-clacpi.png" alt="CLACPI"></div>
+            <div class="sponsor"><img src="2025media/logo-clacs.png" alt="NYU CLACS"></div>
+            <div class="sponsor"><img src="2025media/logo-circl.png" alt="NYU CIRCL"></div>
         </section>
         <section id="schedule">
-            <h1 class="section-heading">Schedule</h1>
+            <h1 class="section-heading-light" id="scheduleH1">Schedule</h1>
             <div class="schedule-content">
                 <img src="2025media/sapo.png" alt="" srcset="">
-                <div id="schedule-display"></div>
+                <div id="schedule-display">
+                  <h2>April 24 & 25</h2>
+                  <h2>The full agenda for the showcase and program is forthcoming.</h2>
+                </div>
             </div>
+        </section>
+        <section id="about">
+          <h1 class="section-heading-dark" id="aboutH1">About</h1>
+          <div class="about-content">
+            <div>
+              <p id="about1">Presented by the Coordinadora Latinoaméricana de Cine y Comunicación de los Pueblos Indígenas (CLACPI).</p>
+              <p id="about2">The Center for Latin American and Caribbean Studies (CLACS) and Center for Collaborative Indigenous Research with Communities and Lands (Center CIRCL) are pleased to host a program presented by the Coordinadora Latinoaméricana de Cine y Comunicación de los Pueblos Indígenas (CLACPI) at the KJCC at NYU on April 24-25, 2025.</p>
+              <p id="about3">This Program is a Side Event of the 2025 UN Permanent Forum on Indigenous Issues.</p>
+            </div>
+            <div>
+              <p id="about4">CLACPI was founded in 1985 and is currently the largest collective of indigenous filmmakers in Latin America. They promote the use of media as a tool of cultural affirmation and social transformation for indigenous communities. CLACPI produces and disseminates audiovisual materials about indigenous cultures and other issues of interest for their collective organizations. They also focus on grassroots media training and workshops to promote agency and self-representation among indigenous communities.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="organizers">
+          <h1 class="section-heading-light" id="organizersH1">Organizers</h1>
+          <div id="organizers-display"></div>
 
         </section>
     </main>
@@ -59,24 +86,23 @@
         <div class="footer-content">
             <div class="footer-heading">
                 <h1>CLACPI Indigenous Film Showcase</h1>
-                <p>April 24 &ndash; 25 2025</p>
+                <p>April 24 & 25, 2025</p>
                 <p>Presented by the Coordinadora Latinoaméricana de Cine y Comunicación de los Pueblos Indígenas (CLACPI), side event of the UN Permanent Forum on Indigenous Issues.</p>
                 <ul class="footer-socials">
-                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.facebook.com/clacpi/?profile_tab_item_selected=about&_rdr" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/clacpi/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/Clacpi" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
                 </ul>
                 <p>Web design by <a href="https://github.com/esilberberg" target="_blank" rel="noopener noreferrer">eric silberberg</a></p>
             </div>
             <ul class="footer-links">
                 <li><a href="#schedule">Schedule</a></li>
                 <li><a href="#panels">Panels</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#organizers">Organizers</a></li>
-                <li><a href="">English</a></li>
-                <li><a href="">Español</a></li>
             </ul>
             <div class="past-showcases">
-                <p>Past showcases</p>
+                <div>Past Showcases:</div>
                 <a href="2024/2024.html">2024</a>
                 <a href="2023/2023.html">2023</a>
             </div>
@@ -88,83 +114,48 @@
     </footer>
 
 <script>
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const navbarLinks = document.querySelector('.navbar-links');
-    
-    hamburgerMenu.addEventListener('click', () => {
-        hamburgerMenu.classList.toggle('open');
-        navbarLinks.classList.toggle('show');
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const navbarLinks = document.querySelector('.navbar-links');
+const navLinks = document.querySelectorAll('.navbar-links a');
+const navbarHeight = 50;
+
+hamburgerMenu.addEventListener('click', () => {
+    hamburgerMenu.classList.toggle('open');
+    navbarLinks.classList.toggle('show');
+});
+
+navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent default anchor behavior
+
+        const targetId = link.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            const targetPosition = targetElement.offsetTop - navbarHeight; // Use offsetTop
+
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+
+            hamburgerMenu.classList.remove('open');
+            navbarLinks.classList.remove('show');
+        }
     });
+});
 </script>
-
 <script>
-const eventsApril24 = [
-  {
-    name: "Opening",
-    date: "April 24",
-    time: "10:00 AM",
-    description: "A conference opening with announcements.",
-    films: []
-  },
-  {
-    name: "Short Films",
-    date: "April 24",
-    time: "1:00 PM",
-    description: "Q&A with Sam Jones",
-    films: [
-      { name: "A Good Movie", director: "JJ Jones", summary: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error odio ipsam nesciunt cumque, porro laudantium modi blanditiis perspiciatis autem quaerat." },
-      { name: "Best Movie", director: "AA Smith", summary: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error odio ipsam nesciunt cumque, porro laudantium modi blanditiis perspiciatis autem quaerat." },
-      { name: "Wonderful Movie", director: "BB Lewis", summary: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error odio ipsam nesciunt cumque, porro laudantium modi blanditiis perspiciatis autem quaerat." }
-    ]
-  },
-  {
-    name: "Short Films",
-    date: "April 24",
-    time: "3:00 PM",
-    description: "Q&A with John Smith",
-    films: [
-      { name: "A Good Movie", director: "JJ Jones", summary: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, deleniti." },
-      { name: "Wonderful Movie", director: "BB Lewis", summary: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error odio ipsam nesciunt cumque, porro laudantium modi blanditiis perspiciatis autem quaerat." }
-    ]
-  }
-];
+  const registerBtn = document.getElementById('registerBtn');
 
-function populateSchedule() {
-  const scheduleDisplay = document.getElementById("schedule-display");
-  if (!scheduleDisplay) {
-    console.error("schedule-display element not found.");
-    return;
-  }
-
-  let html = ""; // Initialize an empty string
-
-  eventsApril24.forEach(event => {
-    html += `
-      <div class="event">
-        <h3>${event.name} ${event.time}</h3>
-        <p>${event.description}</p>
-    `;
-
-    if (event.films && event.films.length > 0) {
-      event.films.forEach(film => {
-        html += `
-          <div class="film-item">
-            <p class="film-title">${film.name}</p>
-            <p class="film-director">${film.director}</p>
-            <p>${film.summary}</p>
-          </div>
-        `;
+  if (registerBtn) {
+      registerBtn.addEventListener('click', function() {
+          registerBtn.textContent = 'Coming Soon';
+          
       });
-    }
-
-    html += `</div>`; // Close the event-item div
-  });
-
-  scheduleDisplay.innerHTML = html; // Set the innerHTML of the scheduleDisplay
-}
-
-window.addEventListener("load", populateSchedule);
+  }
 </script>
 
+<script src="content.js"></script>
 </body>
 </html>
