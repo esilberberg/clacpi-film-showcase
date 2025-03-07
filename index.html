@@ -107,11 +107,7 @@
                 <a href="2024/2024.html">2024</a>
                 <a href="2023/2023.html">2023</a>
             </div>
-
-  
-
         </div>
-
     </footer>
 
 <script>
@@ -127,21 +123,25 @@ hamburgerMenu.addEventListener('click', () => {
 
 navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-        e.preventDefault(); // Prevent default anchor behavior
+        const href = link.getAttribute('href');
 
-        const targetId = link.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
+        if (href.startsWith('#')) { // Check if it's an internal link
+            e.preventDefault();
 
-        if (targetElement) {
-            const targetPosition = targetElement.offsetTop - navbarHeight; // Use offsetTop
+            const targetId = href.substring(1);
+            const targetElement = document.getElementById(targetId);
 
-            window.scrollTo({
-                top: targetPosition,
-                behavior: 'smooth'
-            });
+            if (targetElement) {
+                const targetPosition = targetElement.offsetTop - navbarHeight;
 
-            hamburgerMenu.classList.remove('open');
-            navbarLinks.classList.remove('show');
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+
+                hamburgerMenu.classList.remove('open');
+                navbarLinks.classList.remove('show');
+            }
         }
     });
 });

@@ -73,8 +73,7 @@
     padding: 2rem 0;
     margin: 0;
     text-align: center;
-    z-index: 1000;
-    
+    z-index: 1000; 
   }
 
 .navbar-links.show {
@@ -370,7 +369,7 @@ footer p {
     }
     .footer-content {
         flex-direction: column;
-        gap: 30px;
+        gap: 0px;
     }
     .footer-links, .past-showcases  {
         margin-top: 0;
