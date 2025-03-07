@@ -1,6 +1,6 @@
 const mainContent = {
     scheduleLink: [
-        { en: "Schedule" },
+        { en: "Program" },
         { es: "Programa" }
     ],
     panelsLink: [
@@ -32,7 +32,7 @@ const mainContent = {
         { es: "24 y 25 de abril 2025" }
     ],
     scheduleH1: [
-        { en: "Schedule" },
+        { en: "Program" },
         { es: "Programa" }
     ],
     aboutH1: [
