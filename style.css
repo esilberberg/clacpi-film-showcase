@@ -196,45 +196,57 @@ section {
 #schedule {
     background-color: black;
 }
-.schedule-content {
-    color: white;
-    display: flex;
-    padding: 1rem;
-    justify-content: center;
+
+.upcoming {
+    color: var(--light);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    font-style: italic;
 }
-#schedule-display {
-    padding-left: 1rem;
-    max-width: 500px;
+
+#featured-films-display {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    margin-bottom: 8rem;
+}
+.featured-film {
+    max-width: 600px;
     margin: 0 auto;
 }
-
-#schedule img {
-   height: 900px;
+.film-img {
+    text-align: center;
 }
-
-.event {
-    padding-bottom: 2rem;
+.featured-film img {
+    width: 90%;
 }
-
-#schedule-display h3 {
-    color: var(--gold);
-    font-size: 2.5rem;
-}
-
-.film-item {
-    padding-top: 1rem;
-}
-
 .film-title {
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: 1.3rem;
+    color: var(--gold);
+    font-size: 3rem;
 }
 
-.film-director {
-    font-style: italic;
-    padding-bottom: 0.5rem;
+.film-info {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
 }
+
+.film-info, .language {
+    font-style: italic;
+    color: var(--light);
+    font-size: 12px;
+}
+
+.film-synopsis {
+    color: var(--light);
+    line-height: 1.7;
+}
+
+
+
+
 
 .about-content {
     padding: 0 1rem;

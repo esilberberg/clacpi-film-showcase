@@ -121,6 +121,31 @@ const organizersContent = [
     }
 ];
 
+const filmsContent = [
+    {
+        title: "Bila Burba",
+        director: "Duiren Wagua",
+        country: "Panama",
+        year: "2023",
+        language: "Dulegaya, Spanish, English (Sub)",
+        runtime: "70 min",
+        image: "bilaburba_poster.jpg",
+        synopsis: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."
+    },
+    {
+        title: "Canuto's Transformation",
+        director: "Ariel Kuaray Ortega and Ernesto de Carvalho",
+        country: "Brazil",
+        year: "2023",
+        language: "Mbyá-Guarani, Spanish, Portuguese",
+        runtime: "131 min",
+        image: "CANUTO_poster.jpg",
+        synopsis: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"
+    }
+];
+
+
+
 function translateContent(language) {
     // To translate mainContent object
     for (const contentKey in mainContent) {
@@ -159,7 +184,32 @@ function translateContent(language) {
         });
         organizersDisplay.innerHTML = organizersHTML; 
     }
+    {
+        const featuredFilms = document.getElementById('featured-films-display');
+        if (featuredFilms) {
+            let filmsHTML = '';
+            filmsContent.forEach(film => {
+                filmsHTML += `
+                    <div class="featured-film">
+                        <div class="film-img">
+                            <img src="2025media/films/${film.image}" alt="${film.title}">
+                        </div>
+                        <h2 class="film-title">${film.title}</h2>
+                             <div class="film-info">
+                                <p class="country">${film.country}</p>
+                                <p class="year">${film.year}</p>
+                                <p class="runtime">${film.runtime}</p>
+                            </div>
+                            <p class="language">${film.language}</p>
+                            <h2 class="film-director">Dir. ${film.director}</h2>
+                        <p class="film-synopsis">${film.synopsis}</p>
+                    </div>
+                `;
+            });
+            featuredFilms.innerHTML = filmsHTML;
+        }}
 };
+
 
 document.getElementById('englishBtn').addEventListener('click', function() {
     translateContent('en');
