@@ -55,12 +55,21 @@
         </section>
         <section id="schedule">
             <h1 class="section-heading-light" id="scheduleH1">Program</h1>
-            <div class="upcoming">
-              <p>April 24 & 25 2025</p>
-              <p>Full program coming soon</p>
+            <div id="schedule-content">
+              <div class="tab">
+                <button class="tablinks" id="april24btn" onclick="openDate(event, 'April24')">April 24</button>
+                <button class="tablinks" id="april25btn" onclick="openDate(event, 'April25')">April 25</button>
+              </div>
+              <div id="April24" class="tabcontent">
+                <div id="film-display-april-24"></div>
+              </div>
+              <div id="April25" class="tabcontent">
+
+                <div id="film-display-april-25"></div>
+              </div>
+
             </div>
-  
-            <div id="featured-films-display"></div>
+
 
         </section>
         <section id="about">
@@ -155,6 +164,32 @@ navLinks.forEach(link => {
           
       });
   }
+</script>
+<script>
+  function openDate(event, date) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(date).style.display = "block";
+    if (event) { 
+      event.currentTarget.className += " active";
+    }
+  }
+
+  // Open the #April24 tab by default when the page loads
+  document.addEventListener('DOMContentLoaded', function() {
+    openDate(null, 'April24'); 
+    var april24Button = document.querySelector('.tablinks[onclick*="openDate(event, \'April24\')"]');
+    if (april24Button) {
+      april24Button.classList.add('active');
+    }
+  });
 </script>
 
 <script src="content.js"></script>

@@ -196,57 +196,78 @@ section {
 #schedule {
     background-color: black;
 }
-
-.upcoming {
-    color: var(--light);
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 5rem;
-    font-style: italic;
-}
-
-#featured-films-display {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 8rem;
-    margin-bottom: 8rem;
-}
-.featured-film {
-    max-width: 600px;
+#schedule-content {
+    max-width: 800px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
-.film-img {
+.tab {
+    overflow: hidden;
+    border: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    border-bottom: 1rem solid var(--gold);
+}
+
+.tab button {
+    background-color: var(--light);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s;
+    border-top-left-radius: 20px;
+}
+  
+.tab button:hover {
+    background-color: var(--gold);
+}
+  
+.tab button.active {
+    background-color: var(--gold);
+}
+  
+.tabcontent {
+    display: none;
+    border-top: none;
+}
+
+h4 {
+    color: black;
+    background-color: var(--gold);
+    font-size: 1.5rem;
     text-align: center;
+    margin: 5rem 0 3rem 0;
+    padding: 0.5rem 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.featured-film img {
-    width: 90%;
+
+.film {
+    margin-bottom: 3rem;
 }
 .film-title {
     color: var(--gold);
-    font-size: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
 }
-
-.film-info {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 10px;
+.film-directors, .film-synopsis {
+    color: white;
 }
-
-.film-info, .language {
+.film-directors {
     font-style: italic;
-    color: var(--light);
-    font-size: 12px;
+    padding: 10px 0;
 }
-
-.film-synopsis {
-    color: var(--light);
-    line-height: 1.7;
+.film-image-container {
+    text-align: center;
 }
-
-
-
-
+.film-image {
+    width: 300px;
+    padding-bottom: 2rem;
+}
 
 .about-content {
     padding: 0 1rem;
