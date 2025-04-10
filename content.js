@@ -144,31 +144,34 @@ const filmsContentApril24 = [
         ],
         films: [
             {
-                title: "O Espírito da TV (1990, 18 min.)",
-                directors: ["Vincent Carelli (Waiãpi - Brazil)"],
+                title: "O Espírito da TV (1990, 18 min. Brazil)",
+                directors: ["Vincent Carelli"],
                 synopsis: [
                     {en: "Beginning with the arrival by canoe of a TV and VCR in their village, The Spirit of TV documents the emotions and thoughts of the Waiãpi as they first encounter their own TV images and those of others. They view a tape from their chief’s first trip to Brasilia to speak to the government, news broadcasts, and videos on other Brazilian native peoples. The tape translates the opinions of individual Waiãpi on the power of images, the diversity of native peoples, and native peoples’ common struggles with federal agents, gold miners, trappers and loggers."},
                     {es: "A partir de la llegada en canoa de un televisor y una videograbadora a su aldea, O Espírito da TV documenta las emociones de los waiãpi al encontrarse por primera vez con sus propias imágenes televisivas. Ven una grabación del primer viaje de su cacique a Brasilia para hablar con el gobierno, noticieros y videos sobre otros pueblos indígenas brasileños. Este corto nos traduce las opiniones de cada waiãpi sobre el poder de las imágenes, la diversidad de los pueblos indígenas y las luchas comunes contra agentes federales, mineros de oro, tramperos y leñadores."}
                 ],
-                image:""
+                image:"",
+                languages:"Waiãpi, Spanish"
             },
             {
-                title: "Viko Ndute/Fiesta del agua (1995, 25 min.)",
-                directors: ["Emigdio Julián Caballero (Mixteco - Mexico)"],
+                title: "Viko Ndute/Fiesta del agua (1995, 25 min. Mexico)",
+                directors: ["Emigdio Julián Caballero"],
                 synopsis: [
                   {en: "A story that addresses the threats posed by mining and hydroelectric projects to water supplies in Latin America and questions economic development at the expense of human life, in a context where people are fighting to protect their way of life and the right to water has become a matter of life and death."},
                   {es: "Una historia que aborda las amenazas de los proyectos mineros e hidroeléctricos sobre los suministros de agua en América Latina y que cuestiona el desarrollo económico a expensas de la vida humana, en un contexto en el que los pueblos luchan por proteger su forma de vida y el derecho al agua se ha convertido en una cuestión de vida o muerte."}
                 ],
-                image:""
+                image: "",
+                languages:"Mixteco, Spanish"
             },
             {
-                title: "El Levantamiento indigena del 90 (1990, 40 min.)",
-                directors: ["Fredy Silva (Kichwa - Ecuador)"],
+                title: "El Levantamiento indigena del 90 (1990, 40 min. Ecuador)",
+                directors: ["Fredy Silva"],
                 synopsis: [
                     {en: "The 1990 uprising in Ecuador was launched in the Pujilí canton of Cotopaxi to demand that the national government respond to the 16-point mandate for the life and rights of Ecuador's Indigenous peoples."},
                     {es: "El Levantamiento de 1990 se decidió en cantón Pujilí de la provincia de Cotopaxi para exigir al gobierno nacional la respuesta a los 16 puntos del mandato por la vida y los derechos de las nacionalidades indígenas del Ecuador."}
                 ],
-                image:""
+                image:"",
+                languages: "Kichwa, Spanish"
             }
         ]
     },
@@ -179,49 +182,54 @@ const filmsContentApril24 = [
         ],
         films: [
             {
-                title: "Punalka: El alto bio bio (1995, 26 min.)",
-                directors: ["Jeannette Paillán (Mapuche - Chile)"],
+                title: "Punalka: El alto bio bio (1995, 26 min. Chile)",
+                directors: ["Jeannette Paillán"],
                 synopsis: [
                     {en: "This short was filmed in the upper Bío Bío region of southern Chile, home of the Pehuenche people. Through stories, tales, and poems by Leonel Lienlaf, it narrates the life of the Pehuenches, their customs, beliefs, and traditions. It also highlights the threat posed to their way of life by the construction of a hydroelectric dam."},
                     {es: "Vídeo filmado en el alto Bío Bío, sur de Chile, zona habitada por los Pehuenches. Mediante el uso de cuentos, relatos y poemas de Leonel Lienlaf, se va narrando la vida de este pueblo, sus costumbres, creencias y tradiciones. Tambien va subrayando la amenaza que presenta hacia su forma de vida la construcción de una represa hidroeléctica."}
                 ],
-                image:""
+                image:"",
+                languages: "Mapuche, Spanish"
             },
             {
-                title: "Mu drua  (2011, 21 min.)",
-                directors: ["Mileidy Orozco Domicó (Embera Eyabida - Colombia)"],
+                title: "Mu drua  (2011, 21 min. Colombia)",
+                directors: ["Mileidy Orozco Domicó"],
                 synopsis: [
                     {en: "The documentary 'Mu Drua' (My Land) tells the story of Mileidy, an Indigenous woman from the Cañaduzales community of Mutatá (Antioquia), who shows us her land. It shows her relationship with her family, nature, and the experiences and customs of her community."},
                     {es: "El documental 'Mu Drua' (Mi Tierra) narra como Mileidy, indígena de la comunidad de Cañaduzales de Mutatá (Antioquia), ve su tierra, muestra su relación con su familia, con la naturaleza, las vivencias y costumbres que se tienen en esta comunidad. Sugiere dentro del documental algunas transformaciones en las tradiciones del grupo étnico y en el trasfondo de ella como indígena."}
                 ],
-                image:""
+                image:"",
+                languages: "Embera Eyabida, Spanish"
             },
             {
-                title: "Mirada de mujer (2013, 7 min.)",
-                directors: ["Rosa María Sulca Pomahuarce (Quechua - Peru)"],
+                title: "Mirada de mujer (2013, 7 min. Peru)",
+                directors: ["Rosa María Sulca Pomahuarce"],
                 synopsis: [
                     {en: "The story of Rosa María, a mother of three, who has faced and overcome domestic violence, alongside her children."},
                     {es: "Historia de Rosa María, madre de tres hijos, que ha enfrentado y ha logrando superar la violencia familiar de la que ella y sus hijos fueron víctimas."}
                 ],
-                image:""
+                image:"",
+                languages: "Quechua, Spanish"
             },
             {
-                title: "Ch‘alla de la tierra (Atuendo de la tierra) (2019, 11 min.",
-                directors: ["Felicia Alejo Hidalgo (Aymara - Bolivia)"],
+                title: "Ch‘alla de la tierra (Atuendo de la tierra) (2019, 11 min. Bolivia",
+                directors: ["Felicia Alejo Hidalgo"],
                 synopsis: [
                     {en: "A visit to the Challa Grande community, an ayllu, in the Cochabamba region. Felicia, a young Quechua woman, examines the characteristics and significance of her ayllu's traditional clothing. Preserving this legacy is a top priority for the community: whether it's clothing, festivals, or language, the culture of the Aymara and Quechua must not be forgotten."},
                     {es: "Una visita a la comunidad de Challa Grande, llamada Ayllu, en la región de Cochabamba. La joven diputada quechua Felicia estudia las características y el significado de la ropa original de su Ayllu. Preservar este legado es la máxima prioridad de la comunidad: ya sea la ropa, las fiestas o la lengua, la cultura aymara y quechua no deben olvidarse."}
                 ],
-                image:""
+                image:"",
+                languages: "Aymara, Spanish"
             },
             {
-                title: "Tuire o gesto do facão (2024, 10 min.)",
-                directors: ["Simone Giovine y Colectivo Beture (Kayapó - Brazil)"],
+                title: "Tuire o gesto do facão (2024, 10 min. Brazil)",
+                directors: ["Simone Giovine y Colectivo Beture"],
                 synopsis: [
                     {en: "The warrior Tuire tells her grandson Patkore previously unpublished details about her now iconic machete gesture, in the mobilization against the Belo Monte Dam in Altamira, Brazil."},
                     {es: "La guerrera Tuire relata detalles ineditos a su nieto Patkore, sobre su legendario gesto con su machete, en la movilización contra Belo Monte en Altamira, Brazil."}
                 ],
-                image:""
+                image:"",
+                languages: "Kayapó, Spanish"
             },
         ]
     },
@@ -232,39 +240,44 @@ const filmsContentApril24 = [
         ],
         films: [
             {
-                title: "Antolina (2014, 8 min.)",
-                directors: ["Miguel Agüero (Guarani - Paraguay)"],
+                title: "Antolina (2014, 8 min. Paraguay)",
+                directors: ["Miguel Agüero"],
                 synopsis: [
                     {en: "Antolina bids a painful farewell to her last refuge, while rolling one last cigar in front of a fire, her last offering to the land.  In a place where there are no more forests or animals, only the memories of her dead son haunt her. Antolina wants to leave like everyone else in her village, but her friend will try to stop her."},
                     {es: "Antolina se despide con dolor de su ultimo refugio, mientras prepara frente al fuego el último cigarro que podrá ofrendarle. En un lugar donde ya no hay bosques, ni animales, solo le acechan los recuerdos de su hijo muerto. Antolina desea irse como todos los de su pueblo, pero su amigo intentara impedirlo."}
                 ],
-                image:""
+                image:"",
+                languages: "Guaraní, Spanish"
             },
             {
-                title: "Negra Soy (2017, 12 min.)",
-                directors: ["Laura Bermudez (Garifuna - Honduras)"],
+                title: "Negra Soy (2017, 12 min. Honduras)",
+                directors: ["Laura Bermudez"],
                 synopsis: [
                     {en: "Through their stories, three women and a girl embody the aspirations of the Garifuna community of Punta Gorda, the first Garifuna community in the history of Honduras."},
                     {es: "Tres mujeres y una niña simbolizan a través de sus historias los anhelos de la comunidad garífuna de punta gorda, la primera comunidad garífuna en la historia de honduras."}
-                ]
+                ],
+                image:"",
+                languages: "Garifuna, Spanish"
             },
             {
-                title: "Calaguala (2018, 14 min)",
-                directors: ["David David (Wayuu - Colombia)"],
+                title: "Calaguala (2018, 14 min. Colombia)",
+                directors: ["David David"],
                 synopsis: [
                     {en: "Rut, a young Wayuu woman, returns home to visit her elderly father and sister; she reconnects with the difficult reasons that made her leave her land to seek a better future in the city. This time, the decision to leave or stay must be final."},
                     {es: "Rut, una joven wayuu, vuelve a rancherías para visitar a su anciano padre y a su hermana; así se reencuentra con las difíciles razones que la hicieron abandonar su tierra para buscar un mejor futuro en la ciudad. Esta vez la decisión de irse o quedarse, debe ser definitiva."}
                 ],
-                image:""
+                image:"",
+                languages: "Wayuu, Spanish"
             },
             {
-                title: "Muu Palaa: La abuela mar (2020, 12 min)",
-                directors: ["Olowaili Green (Gunadule - Colombia)", "Luzbeydi Monterosa (Wayuu - Colombia)"],
+                title: "Muu Palaa: La abuela mar (2020, 12 min. Colombia)",
+                directors: ["Olowaili Green", "Luzbeydi Monterosa"],
                 synopsis: [
                     {en: "Ina and Siruma, two girls, one Gunadule (Urabá Antioqueño) and the other Wayuu (Guajira), accompany their grandmothers, Nana Dummad and Manna, in their daily errands, all while learning about their cultures and histories. Curious about the presence and songs of Werwel and Ulepala, Ina and Siruma lose sight of their grandmothers and are guided to a space unknown to them, where they meet for the first time and share stories about their cultures, on what feels like a dreamlike journey by the sea."},
                     {es: "Ina y Siruma, dos niñas pertenecientes a las culturas ancestrales, Gunadule (Urabá Antioqueño) y Wayuu (Guajira) acompañan a sus abuelas Nana Dummad y Manna, en sus actividades cotidianas mientras aprenden de sus saberes. Curiosas por la presencia y los cantos de Werwel y Ulepala (aves representativas en las leyes de origen de sus culturas), Ina y Siruma se pierden de sus abuelas, mientras son guiadas a un espacio desconocido para ellas, donde logran encontrarse para compartir sus culturas en un viaje onírico frente a la mar."}
                 ],
-                image:""
+                image:"",
+                languages: "Gunadule, Wayuu, Spanish"
             },
         ]
     },
@@ -275,13 +288,14 @@ const filmsContentApril24 = [
         ],
         films: [
             {
-                title: "Bila Burba (2023, 70 min)",
-                directors: ["Duiren Wagua (Dulegaya - Panama)"],
+                title: "Bila Burba (2023, 70 min. Panama)",
+                directors: ["Duiren Wagua"],
                 synopsis: [
                     {en: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."},
                     {es: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."}
                 ],
-                image:"bilaburba_poster.jpg"
+                image:"bilaburba_poster.jpg",
+                languages: "Dulegaya, Spanish"
             },
         ]
     }
@@ -302,40 +316,44 @@ const filmsContentApril25 = [
         ],
         films: [
             {
-                title: "El cielo es muy bonito (2022, 17 min.)",
-                directors: ["Aracely Méndez (Maya Tseltal - Mexico)"],
+                title: "El cielo es muy bonito (2022, 17 min. Mexico)",
+                directors: ["Aracely Méndez"],
                 synopsis: [
                     {en: "A shelter in southern Mexico offers a welcoming space for women and girls relocating, who experience migration from different perspectives and with different implications on their lives. “El cielo es muy bonito” explores the dynamics between the fear of an uncertain future, mothers’ hopes, and the joy and dreams of daughters."},
                     {es: "Un albergue al sur de México ofrece un espacio de acogida para mujeres y niñas en movilidad, que viven la migración desde miradas e implicaciones diferentes en sus vidas. “El cielo es muy bonito”, explora el contraste entre el temor de un futuro incierto, los deseos de una madre y la alegría y los sueños de las hijas."}
                 ],
-                image:""
+                image:"",
+                languages: "Maya Tseltal, Spanish (Eng. Sub.)"
             },
             {
-                title: "Gabriela (2023, 15 min.)",
-                directors: ["Evelyn Lorena (Maya K'iche - USA)"],
+                title: "Gabriela (2023, 15 min. USA)",
+                directors: ["Evelyn Lorena"],
                 synopsis: [
                     {en: "In the summer after high-school graduation, Gabriela, a young undocumented Guatemalan woman, pursues her dream of swimming for an illustrious Country Club swim team."},
                     {es: "En el verano después de graduarse, Gabriela, una joven guatemalteca indocumentada, sueña con nadar y tomar parte de un equipo de natación en el sur de EUA."}
                 ],
-                image:""
+                image:"",
+                languages: "Maya K'iche, Spanish (Eng. Sub.)"
             },
             {
-                title: "La espera/The Wait (2021, 12 min.)",
-                directors: ["Celina Yunuen Manuel Piñóna (Purépecha - Mexico)"],
+                title: "La espera/The Wait (2021, 12 min. Mexico)",
+                directors: ["Celina Yunuen Manuel Piñóna"],
                 synopsis: [
                     {en: "Yazmín and Zenaida, daughter-in-law and mother-in-law, live in a Purépecha community, awaiting the arrival of their husbands; time that will reveal infinite possibilities."},
                     {es: "Yazmín y Zenaida, nuera y suegra, viven en una comunidad Purépecha, esperando la llegada de sus maridos; tiempo que revelará infinitas posibilidades."}
                 ],
-                image:""
+                image:"",
+                languages: "Purépecha, Spanish (Eng. Sub.)"
             },
             {
-                title: "Chuj Boys of Summer  (2021, 15 min.)",
-                directors: ["Max Walker-Silverman (Maya Chuj - USA)"],
+                title: "Chuj Boys of Summer  (2021, 15 min. USA)",
+                directors: ["Max Walker-Silverman"],
                 synopsis: [
                     {en: "Speaking only his native language, a Guatemalan teenager begins his new life in rural Colorado. A true story starring those who live it."},
                     {es: "Hablando solo su lengua materna, un adolescente guatemalteco comienza su nueva vida en la zona rural de Colorado. Una historia real protagonizada por quienes la viven."}
                 ],
-                image:""
+                image:"",
+                languages: "Maya Chu, Spanish (Eng. Sub.)"
             },
         ],
     },
@@ -351,7 +369,8 @@ const filmsContentApril25 = [
                 {en: "Premiere and conversation with André Lopes and Typju Myky of the Ijã Mytyli Cine Collective."},
                 {es: "Estreno mundial y conversación con André Lopes and Typju Myky del Colectivo de Cine Ijã Mytyli "}
             ],
-            image:""
+            image:"",
+            languages: ""
         }
         ]
     },
@@ -362,13 +381,14 @@ const filmsContentApril25 = [
         ],
         films: [
             {
-                title: "A Transformacao do Canuto (2023, 131 min)",
-                directors: ["Ariel Kuaray Ortega (Guaraní - Brazil)", "Ernesto de Carvalho (Guaraní - Brazil)"],
+                title: "A Transformacao do Canuto (2023, 131 min. Brazil)",
+                directors: ["Ariel Kuaray Ortega", "Ernesto de Carvalho"],
                 synopsis: [
                     {en: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"},
                     {es: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"}
                 ],
-                image:"CANUTO_poster.jpg"
+                image:"CANUTO_poster.jpg",
+                languages: "Guaraní, Spanish"
             },
         ]
     },
@@ -469,6 +489,7 @@ function translateContent(language) {
                             <p class="film-title">${filmTitle}</p>
                             <p class="film-directors">${directorsHTML}</p>
                             ${synopsisHTML}
+                            <p class="film-languages">${film.languages}</p>
                         </div>
                     `;
                 });

@@ -162,19 +162,33 @@ h2 {
     background-color: white; 
 }
 
-#sponsors {
+.sponsor-images-content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem 0;
 }
 
-#sponsors .sponsor:nth-child(3) img {
+.sponsor-images-content .sponsor:nth-child(3) img {
     height: 130px;
 }
 
-#sponsors img {
+.sponsor-images-content img {
   height: 100px;
+}
+
+.sponsors-text-content {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sponsors-text-content a {
+    color: black;
+}
+.sponsors-text-content a:hover {
+    color: var(--gold);
 }
 
 .section-heading-light {
@@ -254,13 +268,14 @@ h4 {
     font-weight: bold;
     font-size: 1rem;
 }
-.film-directors, .film-synopsis {
+.film-directors, .film-synopsis, .film-languages {
     color: white;
 }
-.film-directors {
+.film-directors, .film-languages {
     font-style: italic;
     padding: 10px 0;
 }
+
 .film-image-container {
     text-align: center;
 }
@@ -268,6 +283,7 @@ h4 {
     width: 300px;
     padding-bottom: 2rem;
 }
+
 
 .about-content {
     padding: 0 1rem;
@@ -385,7 +401,7 @@ footer p {
     .banner-content {
         flex-direction: column
     }
-    #sponsors {
+    .sponsor-images-content {
         flex-direction: column;
         gap: 40px;
         align-items: center;
