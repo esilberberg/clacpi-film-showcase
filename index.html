@@ -102,6 +102,24 @@
         <section id="organizers">
           <h1 class="section-heading-light" id="organizersH1">Organizers</h1>
           <div id="organizers-display"></div>
+          <div class="local-organizers">
+            <h3 class="local-org-title">Local Organizers</h3>
+            <div class="local-organizers-section">
+              <h3>Coordinators</h3>
+              <p>Amalia Córdova, <i>Smithsonian Center for Folklife and Cultural Heritage</i></p>
+              <p>Emily Uruchima, <i>The Graduate Center, City University of New York, New York Public Library & Water Protector Legal Collective</i></p>
+              <p>Angela Carreño, <i>NYU Center for Latin American and Caribbean Studies</i></p>
+            </div>
+     
+            <div class="local-organizers-section">
+              <h3>Assistance</h3>
+              <p>Luciana Aliendre</p>
+              <p>Chelsea Flores</p>
+              <p>Andrés Olàn-Vàzquez</p>
+              <p>Eric Silberberg, <i>Queens College, City University of New York</i></p>
+            </div>
+            
+          </div>
 
         </section>
     </main>
@@ -168,16 +186,7 @@ navLinks.forEach(link => {
     });
 });
 </script>
-<script>
-  const registerBtn = document.getElementById('registerBtn');
 
-  if (registerBtn) {
-      registerBtn.addEventListener('click', function() {
-          registerBtn.textContent = 'Coming Soon';
-          
-      });
-  }
-</script>
 <script>
   function openDate(event, date) {
     var i, tabcontent, tablinks;
@@ -202,6 +211,11 @@ navLinks.forEach(link => {
     if (april24Button) {
       april24Button.classList.add('active');
     }
+  });
+</script>
+<script>
+  document.getElementById('registerBtn').addEventListener('click', function() {
+    window.open('https://events.nyu.edu/event/363338-5th-clacpi-indigenous-film-showcase-cine-in', '_blank');
   });
 </script>
 

@@ -151,7 +151,7 @@ const filmsContentApril24 = [
                     {es: "A partir de la llegada en canoa de un televisor y una videograbadora a su aldea, O Espírito da TV documenta las emociones de los waiãpi al encontrarse por primera vez con sus propias imágenes televisivas. Ven una grabación del primer viaje de su cacique a Brasilia para hablar con el gobierno, noticieros y videos sobre otros pueblos indígenas brasileños. Este corto nos traduce las opiniones de cada waiãpi sobre el poder de las imágenes, la diversidad de los pueblos indígenas y las luchas comunes contra agentes federales, mineros de oro, tramperos y leñadores."}
                 ],
                 image:"",
-                languages:"Waiãpi, Spanish"
+                languages:"Waiãpi, Español (Eng. Sub.)"
             },
             {
                 title: "Viko Ndute/Fiesta del agua (1995, 25 min. Mexico)",
@@ -161,7 +161,7 @@ const filmsContentApril24 = [
                   {es: "Una historia que aborda las amenazas de los proyectos mineros e hidroeléctricos sobre los suministros de agua en América Latina y que cuestiona el desarrollo económico a expensas de la vida humana, en un contexto en el que los pueblos luchan por proteger su forma de vida y el derecho al agua se ha convertido en una cuestión de vida o muerte."}
                 ],
                 image: "",
-                languages:"Mixteco, Spanish"
+                languages:"Mixteco, Español (Eng. Sub.)"
             },
             {
                 title: "El Levantamiento indigena del 90 (1990, 40 min. Ecuador)",
@@ -171,7 +171,7 @@ const filmsContentApril24 = [
                     {es: "El Levantamiento de 1990 se decidió en cantón Pujilí de la provincia de Cotopaxi para exigir al gobierno nacional la respuesta a los 16 puntos del mandato por la vida y los derechos de las nacionalidades indígenas del Ecuador."}
                 ],
                 image:"",
-                languages: "Kichwa, Spanish"
+                languages: "Kichwa, Español (Eng. Sub.)"
             }
         ]
     },
@@ -189,7 +189,7 @@ const filmsContentApril24 = [
                     {es: "Vídeo filmado en el alto Bío Bío, sur de Chile, zona habitada por los Pehuenches. Mediante el uso de cuentos, relatos y poemas de Leonel Lienlaf, se va narrando la vida de este pueblo, sus costumbres, creencias y tradiciones. Tambien va subrayando la amenaza que presenta hacia su forma de vida la construcción de una represa hidroeléctica."}
                 ],
                 image:"",
-                languages: "Mapuche, Spanish"
+                languages: "Mapuche, Español (Eng. Sub.)"
             },
             {
                 title: "Mu drua  (2011, 21 min. Colombia)",
@@ -199,7 +199,7 @@ const filmsContentApril24 = [
                     {es: "El documental 'Mu Drua' (Mi Tierra) narra como Mileidy, indígena de la comunidad de Cañaduzales de Mutatá (Antioquia), ve su tierra, muestra su relación con su familia, con la naturaleza, las vivencias y costumbres que se tienen en esta comunidad. Sugiere dentro del documental algunas transformaciones en las tradiciones del grupo étnico y en el trasfondo de ella como indígena."}
                 ],
                 image:"",
-                languages: "Embera Eyabida, Spanish"
+                languages: "Embera Eyabida, Español (Eng. Sub.)"
             },
             {
                 title: "Mirada de mujer (2013, 7 min. Peru)",
@@ -209,7 +209,7 @@ const filmsContentApril24 = [
                     {es: "Historia de Rosa María, madre de tres hijos, que ha enfrentado y ha logrando superar la violencia familiar de la que ella y sus hijos fueron víctimas."}
                 ],
                 image:"",
-                languages: "Quechua, Spanish"
+                languages: "Quechua, Español (Eng. Sub.)"
             },
             {
                 title: "Ch‘alla de la tierra (Atuendo de la tierra) (2019, 11 min. Bolivia",
@@ -219,7 +219,7 @@ const filmsContentApril24 = [
                     {es: "Una visita a la comunidad de Challa Grande, llamada Ayllu, en la región de Cochabamba. La joven diputada quechua Felicia estudia las características y el significado de la ropa original de su Ayllu. Preservar este legado es la máxima prioridad de la comunidad: ya sea la ropa, las fiestas o la lengua, la cultura aymara y quechua no deben olvidarse."}
                 ],
                 image:"",
-                languages: "Aymara, Spanish"
+                languages: "Aymara, Español (Eng. Sub.)"
             },
             {
                 title: "Tuire o gesto do facão (2024, 10 min. Brazil)",
@@ -229,7 +229,7 @@ const filmsContentApril24 = [
                     {es: "La guerrera Tuire relata detalles ineditos a su nieto Patkore, sobre su legendario gesto con su machete, en la movilización contra Belo Monte en Altamira, Brazil."}
                 ],
                 image:"",
-                languages: "Kayapó, Spanish"
+                languages: "Kayapó, Español (Eng. Sub.)"
             },
         ]
     },
@@ -247,7 +247,7 @@ const filmsContentApril24 = [
                     {es: "Antolina se despide con dolor de su ultimo refugio, mientras prepara frente al fuego el último cigarro que podrá ofrendarle. En un lugar donde ya no hay bosques, ni animales, solo le acechan los recuerdos de su hijo muerto. Antolina desea irse como todos los de su pueblo, pero su amigo intentara impedirlo."}
                 ],
                 image:"",
-                languages: "Guaraní, Spanish"
+                languages: "Guaraní, Español (Eng. Sub.)"
             },
             {
                 title: "Negra Soy (2017, 12 min. Honduras)",
@@ -257,7 +257,7 @@ const filmsContentApril24 = [
                     {es: "Tres mujeres y una niña simbolizan a través de sus historias los anhelos de la comunidad garífuna de punta gorda, la primera comunidad garífuna en la historia de honduras."}
                 ],
                 image:"",
-                languages: "Garifuna, Spanish"
+                languages: "Garifuna, Español (Eng. Sub.)"
             },
             {
                 title: "Calaguala (2018, 14 min. Colombia)",
@@ -267,7 +267,7 @@ const filmsContentApril24 = [
                     {es: "Rut, una joven wayuu, vuelve a rancherías para visitar a su anciano padre y a su hermana; así se reencuentra con las difíciles razones que la hicieron abandonar su tierra para buscar un mejor futuro en la ciudad. Esta vez la decisión de irse o quedarse, debe ser definitiva."}
                 ],
                 image:"",
-                languages: "Wayuu, Spanish"
+                languages: "Wayuu, Español (Eng. Sub.)"
             },
             {
                 title: "Muu Palaa: La abuela mar (2020, 12 min. Colombia)",
@@ -277,7 +277,7 @@ const filmsContentApril24 = [
                     {es: "Ina y Siruma, dos niñas pertenecientes a las culturas ancestrales, Gunadule (Urabá Antioqueño) y Wayuu (Guajira) acompañan a sus abuelas Nana Dummad y Manna, en sus actividades cotidianas mientras aprenden de sus saberes. Curiosas por la presencia y los cantos de Werwel y Ulepala (aves representativas en las leyes de origen de sus culturas), Ina y Siruma se pierden de sus abuelas, mientras son guiadas a un espacio desconocido para ellas, donde logran encontrarse para compartir sus culturas en un viaje onírico frente a la mar."}
                 ],
                 image:"",
-                languages: "Gunadule, Wayuu, Spanish"
+                languages: "Gunadule, Wayuu, Español (Eng. Sub.)"
             },
         ]
     },
@@ -288,14 +288,14 @@ const filmsContentApril24 = [
         ],
         films: [
             {
-                title: "Bila Burba (2023, 70 min. Panama)",
-                directors: ["Duiren Wagua"],
+                title: "A Transformacao do Canuto (2023, 131 min. Brazil)",
+                directors: ["Ariel Kuaray Ortega", "Ernesto de Carvalho"],
                 synopsis: [
-                    {en: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."},
-                    {es: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."}
+                    {en: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"},
+                    {es: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"}
                 ],
-                image:"bilaburba_poster.jpg",
-                languages: "Dulegaya, Spanish"
+                image:"CANUTO_poster.jpg",
+                languages: "Guaraní, Español (Eng. Sub.)"
             },
         ]
     }
@@ -323,7 +323,7 @@ const filmsContentApril25 = [
                     {es: "Un albergue al sur de México ofrece un espacio de acogida para mujeres y niñas en movilidad, que viven la migración desde miradas e implicaciones diferentes en sus vidas. “El cielo es muy bonito”, explora el contraste entre el temor de un futuro incierto, los deseos de una madre y la alegría y los sueños de las hijas."}
                 ],
                 image:"",
-                languages: "Maya Tseltal, Spanish (Eng. Sub.)"
+                languages: "Maya Tseltal, Español (Eng. Sub.)"
             },
             {
                 title: "Gabriela (2023, 15 min. USA)",
@@ -333,7 +333,7 @@ const filmsContentApril25 = [
                     {es: "En el verano después de graduarse, Gabriela, una joven guatemalteca indocumentada, sueña con nadar y tomar parte de un equipo de natación en el sur de EUA."}
                 ],
                 image:"",
-                languages: "Maya K'iche, Spanish (Eng. Sub.)"
+                languages: "Maya K'iche, Español (Eng. Sub.)"
             },
             {
                 title: "La espera/The Wait (2021, 12 min. Mexico)",
@@ -343,7 +343,7 @@ const filmsContentApril25 = [
                     {es: "Yazmín y Zenaida, nuera y suegra, viven en una comunidad Purépecha, esperando la llegada de sus maridos; tiempo que revelará infinitas posibilidades."}
                 ],
                 image:"",
-                languages: "Purépecha, Spanish (Eng. Sub.)"
+                languages: "Purépecha, Español (Eng. Sub.)"
             },
             {
                 title: "Chuj Boys of Summer  (2021, 15 min. USA)",
@@ -353,7 +353,7 @@ const filmsContentApril25 = [
                     {es: "Hablando solo su lengua materna, un adolescente guatemalteco comienza su nueva vida en la zona rural de Colorado. Una historia real protagonizada por quienes la viven."}
                 ],
                 image:"",
-                languages: "Maya Chu, Spanish (Eng. Sub.)"
+                languages: "Maya Chu, Español (Eng. Sub.)"
             },
         ],
     },
@@ -381,15 +381,15 @@ const filmsContentApril25 = [
         ],
         films: [
             {
-                title: "A Transformacao do Canuto (2023, 131 min. Brazil)",
-                directors: ["Ariel Kuaray Ortega", "Ernesto de Carvalho"],
+                title: "Bila Burba (2023, 70 min. Panama)",
+                directors: ["Duiren Wagua"],
                 synopsis: [
-                    {en: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"},
-                    {es: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"}
+                    {en: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."},
+                    {es: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."}
                 ],
-                image:"CANUTO_poster.jpg",
-                languages: "Guaraní, Spanish"
-            },
+                image:"bilaburba_poster.jpg",
+                languages: "Dulegaya, Español (Eng. Sub.)"
+            }
         ]
     },
     {

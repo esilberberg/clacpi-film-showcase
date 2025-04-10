@@ -156,6 +156,7 @@ h2 {
     border-radius: 10px;
     margin-top: 2rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .register:hover {
@@ -338,6 +339,29 @@ h4 {
     height: 250px;
     display: block;
     margin: 0 auto;
+}
+.local-organizers {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.local-org-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--gold);
+    margin-bottom: 2rem;
+}
+.local-organizers-section {
+    margin-bottom: 1rem;
+
+}
+.local-organizers-section h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.local-organizers-section p {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 footer {
