@@ -283,8 +283,8 @@ const filmsContentApril24 = [
     },
     {
         section: [
-            {en: "7:00pm - Feature"},
-            {es: "19:00 - Largometraje"}
+            {en: "7:00pm - U.S. Premiere"},
+            {es: "19:00 - Estreno EUA"}
         ],
         films: [
             {
@@ -295,7 +295,7 @@ const filmsContentApril24 = [
                     {es: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"}
                 ],
                 image:"CANUTO_poster.jpg",
-                languages: "Guaraní, Español (Eng. Sub.)"
+                languages: "Guaraní, Español, Português"
             },
         ]
     }
