@@ -28,8 +28,8 @@ const mainContent = {
         { es: "Registrar" }
     ],
     date: [
-        { en: "April 24 & 25 2025" },
-        { es: "24 y 25 de abril 2025" }
+        { en: "April 23 - 25 2025" },
+        { es: "23 a 25 de abril 2025" }
     ],
     scheduleH1: [
         { en: "Program" },
