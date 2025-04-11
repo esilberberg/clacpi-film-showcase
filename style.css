@@ -21,13 +21,13 @@
 #languages button {
     background-color: transparent;
     border: none;
-    color: var(--gold);
+    color: var(--light);
     transition: color 0.3s ease-in-out;
     cursor: pointer;
 }
 
 #languages button:hover {
-    color: white;
+    color: var(--gold);
 }
 
 .hamburger-nav {
@@ -221,7 +221,7 @@ section {
     border: none;
     display: flex;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: start;
     border-bottom: 1rem solid var(--gold);
 }
 
@@ -230,11 +230,12 @@ section {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
-    font-size: 1.5rem;
+    padding: 12px 14px;
+    font-size: 1.2rem;
     font-weight: bold;
     transition: 0.3s;
     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
   
 .tab button:hover {
@@ -420,15 +421,26 @@ footer p {
     color: white;
 }
 
-
-@media (max-width: 650px) {
-    .banner-content {
-        flex-direction: column
-    }
+@media (max-width: 890px) {
     .sponsor-images-content {
         flex-direction: column;
         gap: 40px;
         align-items: center;
+    } 
+    .sponsor-images-content .sponsor:nth-child(3) img {
+        height: auto;
+        width: 300px;
+    }
+    
+    .sponsor-images-content img {
+      height: auto;
+      width: 300px;
+    }
+}
+
+@media (max-width: 650px) {
+    .banner-content {
+        flex-direction: column
     }
     .schedule-content {
         flex-direction: column-reverse;

@@ -23,7 +23,6 @@
         </div>
         <ul class="navbar-links">
           <li><a href="#schedule" id="scheduleLink">Program</a></li>
-          <li><a href="#panels" id="panelsLink">Panels</a></li>
           <li><a href="#about" id="aboutLink">About</a></li>
           <li><a href="#organizers" id="organizersLink">Organizers</a></li>
           <ul class="socials">
@@ -51,16 +50,15 @@
         </section>
         <section id="sponsors">
           <div class="sponsor-images-content">
-            <div class="sponsor"><img src="2025media/logo-clacpi.png" alt="CLACPI"></div>
-            <div class="sponsor"><img src="2025media/logo-clacs.png" alt="NYU CLACS"></div>
-            <div class="sponsor"><img src="2025media/logo-circl.png" alt="NYU CIRCL"></div>
+            <div class="sponsor"><a href="https://clacpi.org/" target="_blank" rel="noopener noreferrer"><img src="2025media/logo-clacpi.png" alt="CLACPI"></a></div>
+            <div class="sponsor"><a href="https://as.nyu.edu/research-centers/clacs.html" target="_blank" rel="noopener noreferrer"><img src="2025media/logo-clacs.png" alt="NYU CLACS"></a></div>
+            <div class="sponsor"><a href="https://centercirclnyu.com/" target="_blank" rel="noopener noreferrer"><img src="2025media/logo-circl.png" alt="NYU CIRCL"></a></div>
+            <div class="sponsor"><a href="https://folklife.si.edu/" target="_blank" rel="noopener noreferrer"><img src="2025media/logo-folklife.jpg" alt="Center for Folklife"></a></div>
+            <div class="sponsor"><a href="https://www.kichwahatari.org/" target="_blank" rel="noopener noreferrer"><img src="2025media/logo-khlogo_red.png" alt="Kichwa Hatari"></a></div>
           </div>
           <div class="sponsors-text-content">
-            <div class="text-sponsor"><a href="https://as.nyu.edu/departments/spanish.html" target="_blank" rel="noopener noreferrer">NYU Department of Spanish and Portuguese</a></div>
             <div class="text-sponsor"><a href="https://wp.nyu.edu/cmch/" target="_blank" rel="noopener noreferrer">NYU Center for Media, Culture and History</a></div>
             <div class="text-sponsor"><a href="https://www.nyu.edu/life/global-inclusion-and-diversity/centers-and-communities/center-for-multicultural-education-and-programs.html" target="_blank" rel="noopener noreferrer">NYU Center for Multicultural Education and Programs</a></div>
-            <div class="text-sponsor"><a href="https://folklife.si.edu/" target="_blank" rel="noopener noreferrer">Smithsonian Center for Folklife and Cultural Heritage</a></div>
-            <div class="text-sponsor"><a href="https://www.kichwahatari.org/" target="_blank" rel="noopener noreferrer">Kichwa Hatari</a></div>
             <div class="text-sponsor"><a href="https://www.instagram.com/kaymantakuna?igsh=MTFtd2F1eXE5bHJ6OQ==" target="_blank" rel="noopener noreferrer">Kaymantakuna</a></div>
             <div class="text-sponsor"><a href="https://www.instagram.com/kichwacollective?igsh=MmVsc3Z6ajJsa3Jx" target="_blank" rel="noopener noreferrer">Kichwa Collective</a></div>
           </div>
@@ -70,8 +68,12 @@
             <h1 class="section-heading-light" id="scheduleH1">Program</h1>
             <div id="schedule-content">
               <div class="tab">
+                <button class="tablinks" id="april23btn" onclick="openDate(event, 'April23')">April 23</button>
                 <button class="tablinks" id="april24btn" onclick="openDate(event, 'April24')">April 24</button>
                 <button class="tablinks" id="april25btn" onclick="openDate(event, 'April25')">April 25</button>
+              </div>
+              <div id="April23" class="tabcontent">
+                <div id="film-display-april-23"></div>
               </div>
               <div id="April24" class="tabcontent">
                 <div id="film-display-april-24"></div>
@@ -117,6 +119,8 @@
               <p>Chelsea Flores</p>
               <p>Andrés Olàn-Vàzquez</p>
               <p>Eric Silberberg, <i>Queens College, City University of New York</i></p>
+              <p>Gray Kidd, <i>NYU CLACS</i></p>
+              <p>Matías Gallegos Ruiz, <i>NYU CLACS</i></p>
             </div>
             
           </div>
@@ -138,7 +142,6 @@
             </div>
             <ul class="footer-links">
                 <li><a href="#schedule">Program</a></li>
-                <li><a href="#panels">Panels</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#organizers">Organizers</a></li>
             </ul>
@@ -204,12 +207,12 @@ navLinks.forEach(link => {
     }
   }
 
-  // Open the #April24 tab by default when the page loads
+  // Open the #April23 tab by default when the page loads
   document.addEventListener('DOMContentLoaded', function() {
-    openDate(null, 'April24'); 
-    var april24Button = document.querySelector('.tablinks[onclick*="openDate(event, \'April24\')"]');
-    if (april24Button) {
-      april24Button.classList.add('active');
+    openDate(null, 'April23'); 
+    var april23Button = document.querySelector('.tablinks[onclick*="openDate(event, \'April23\')"]');
+    if (april23Button) {
+      april23Button.classList.add('active');
     }
   });
 </script>

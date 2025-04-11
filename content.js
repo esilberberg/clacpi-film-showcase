@@ -35,6 +35,10 @@ const mainContent = {
         { en: "Program" },
         { es: "Programa" }
     ],
+    april23btn: [
+        { en: "April 23" },
+        { es: "23 de abril" }
+    ],
     april24btn: [
         { en: "April 24" },
         { es: "24 de abril" }
@@ -129,6 +133,46 @@ const organizersContent = [
     }
 ];
 
+const filmsContentApril23 = [
+    {
+        section: [
+            {en: "6:00pm - Panel Discussions: Driving Narratives, Building Movements"},
+            {es: "18:00 - Mesas Redondas: Impulsando Narrativas, Construyendo Movimientos"}
+        ],
+        films: [
+            {
+            title: "",
+            directors: [""],
+            synopsis: [
+                {en: "These panel discussions will feature a conversation between Latin American indigenous activists, storytellers, and communicators living in territory and in the diaspora about the critical ways in which narratives around self-determination are informed by the legacy of our resistance struggles and conserved across migratory realities. In what ways can we harness reciprocal dialogue that honors the diverse lived experiences while recognizing our complementary paths toward a liberation for our communities? In what ways are we innovating our organizing strategies from diverse contexts and lived experiences? How can we use these strategies to align narratives and strengthen connections between our movements and expanding struggles? What do the interconnected challenges and risks we face today look like and how can we build authentic solidarity across movements and realities to address these?"},
+                {es: "These panel discussions will feature a conversation between Latin American indigenous activists, storytellers, and communicators living in territory and in the diaspora about the critical ways in which narratives around self-determination are informed by the legacy of our resistance struggles and conserved across migratory realities. In what ways can we harness reciprocal dialogue that honors the diverse lived experiences while recognizing our complementary paths toward a liberation for our communities? In what ways are we innovating our organizing strategies from diverse contexts and lived experiences? How can we use these strategies to align narratives and strengthen connections between our movements and expanding struggles? What do the interconnected challenges and risks we face today look like and how can we build authentic solidarity across movements and realities to address these?"}
+            ],
+            image:"",
+            languages:""
+        },
+        {
+            title: "Soberanía Narrativa en la Construcción de Movimientos | Narrative Sovereignty in Movement Building",
+            directors: ["Rocío Gomez (Warmi Cine)", "Eli Farinango (Kichwa Hatari)", "Tadii Angeles (Rebeldia Radio)", "Moderator: Emily Uruchima (Kichwa Hatari/CLACPI)" ],
+            synopsis: [
+                {en: "45 min + 10min Q&A"},
+                {es: "45 min + 10min Q&A"}
+            ],
+            image:"",
+            languages:"Interpretation: English-Español (Simultaneous)"
+        },
+        {
+            title: "Estrategias Organizativas en la Construcción de Movimientos | Organizing Strategies in Movement Building",
+            directors: ["Estefanía Lalvay (CONAIE)", "Prospero Martinez (Consejo de los Pueblos Originarios)", "Fabian/Nazka (Kichwa Hatari/Kichwa Collective)", "Moderator: Charlie Uruchima (Kichwa Hatari)"],
+            synopsis: [
+                {en: "45 min + 10min Q&A"},
+                {es: "45 min + 10min Q&A"}
+            ],
+            image:"",
+            languages:"Interpretation: English-Español (Simultaneous)"
+        }
+    ],
+    },
+]
 const filmsContentApril24 = [
     {
         section: [
@@ -292,7 +336,7 @@ const filmsContentApril24 = [
                 directors: ["Ariel Kuaray Ortega", "Ernesto de Carvalho"],
                 synopsis: [
                     {en: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"},
-                    {es: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"}
+                    {es: "En una pequeña comunidad mbya-guaraní entre Brasil y Argentina, todo el mundo conoce el nombre de Canuto: un hombre que hace muchos años sufrió la temida transformación en jaguar y luego murió trágicamente. Ahora se está rodando una película para contar su historia. ¿Por qué le ocurrió esto? Pero lo más importante: ¿quién del pueblo debería interpretar su papel?"}
                 ],
                 image:"CANUTO_poster.jpg",
                 languages: "Guaraní, Español, Português"
@@ -385,7 +429,7 @@ const filmsContentApril25 = [
                 directors: ["Duiren Wagua"],
                 synopsis: [
                     {en: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."},
-                    {es: "Colonialism wiped out many Central and South American cultures, but not the Gunadule, the indigenous people of northern Panama. In 1925 they successfully resisted the repression of their culture by the Panamanian government. In three days of fighting, they won their autonomy and thus saved their way of life. Known as the “Dule Revolution,” the glorious battle is commemorated annually with a reenactment involving hundreds of participants, including many children. Bila Burba, made by Duiren Wagua, a member of the Gunadule, shows the reenactment of the successful revolution, and looks back with descendants of the revolutionaries on the reasons for the uprising and the course of the events. The film convincingly shows the power of this community theater in maintaining a unique collective identity, which emphasizes cooperation. Keeping the past alive is crucial, because the Gunadule's autonomy is once again under threat due to the Panamanian government’s sale of parts of their territory."}
+                    {es: "El colonialismo acabó con muchas culturas de Centroamérica y del Sur, pero no con los Gunadule, el pueblo indígena del norte de Panamá.  En 1925 resistieron con éxito la represión de su cultura por parte del gobierno panameño.  En tres días de lucha consiguieron su autonomía y salvaron así su forma de vida. Conocida como la “Revolución Dule”, la gloriosa batalla se conmemora anualmente con una recreación en la que participan cientos de participantes, incluidos muchos niños.  Bila Burba, realizada por Duiren Wagua, gunadule, muestra la recreación de la exitosa revolución y recuerda con los descendientes de los revolucionarios las razones del levantamiento y el curso de los acontecimientos. La película muestra de manera convincente el poder del teatro comunitario para mantener una identidad colectiva única, que enfatiza la cooperación. Mantener vivo el pasado es crucial, porque la autonomía de los Gunadule está una vez más amenazada debido a la venta de partes de su territorio por parte del gobierno panameño."}
                 ],
                 image:"bilaburba_poster.jpg",
                 languages: "Dulegaya, Español (Eng. Sub.)"
@@ -500,6 +544,7 @@ function translateContent(language) {
     };
 
     // Call the DRY function for each date
+    translateAndDisplayFilms('april-23', filmsContentApril23);
     translateAndDisplayFilms('april-24', filmsContentApril24);
     translateAndDisplayFilms('april-25', filmsContentApril25);
 }
