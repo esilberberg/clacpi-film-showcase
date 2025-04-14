@@ -162,7 +162,7 @@ const filmsContentApril23 = [
         },
         {
             title: "Estrategias Organizativas en la Construcción de Movimientos | Organizing Strategies in Movement Building",
-            directors: ["Estefanía Lalvay (CONAIE)", "Prospero Martinez (Consejo de los Pueblos Originarios)", "Fabian/Nazka (Kichwa Hatari/Kichwa Collective)", "Moderator: Charlie Uruchima (Kichwa Hatari)"],
+            directors: ["Estefanía Lalvay (CONAIE)", "Prospero Martinez (Consejo de los Pueblos Originarios)", "Fabian Muenala (Kichwa Hatari)", "Andrés Tapia Arias (CONAIE)", "Moderator: Charlie Uruchima (Kichwa Hatari)"],
             synopsis: [
                 {en: "45 min + 10min Q&A"},
                 {es: "45 min + 10min Q&A"}
@@ -187,6 +187,16 @@ const filmsContentApril24 = [
             {es: "14:00 - Retrospectiva CLACPI: Rituales de Emergencia"}
         ],
         films: [
+            {
+                title: "",
+                directors: [""],
+                synopsis: [
+                    {en: "Session Moderator: Sinclair Thomson, Associate Professor of History at New York University"},
+                    {es: "Moderador de sesión: Sinclair Thomson, Associate Professor of History at New York University"}
+                ],
+                image:"",
+                languages:""
+            },
             {
                 title: "O Espírito da TV (1990, 18 min. Brazil)",
                 directors: ["Vincent Carelli"],
@@ -225,6 +235,16 @@ const filmsContentApril24 = [
             {es: "16:00 - Retrospectiva CLACPI: Cuerpo territorio"}
         ],
         films: [
+            {
+                title: "",
+                directors: [""],
+                synopsis: [
+                    {en: "Session Moderator: Paulina Pineda, Assistant Professor of Spanish and Portuguese Language and Literature at New York University and CLACS"},
+                    {es: "Moderadora de sesión: Paulina Pineda, Assistant Professor of Spanish and Portuguese Language and Literature at New York University and CLACS"}
+                ],
+                image:"",
+                languages:""
+            },
             {
                 title: "Punalka: El alto bio bio (1995, 26 min. Chile)",
                 directors: ["Jeannette Paillán"],
@@ -283,6 +303,16 @@ const filmsContentApril24 = [
             {es: "17:45 - Retrospectiva CLACPI: Territorios y Diasporas"}
         ],
         films: [
+            {
+                title: "",
+                directors: [""],
+                synopsis: [
+                    {en: "Session Moderator: Renzo Aroni Sulca, Assistant Professor of Spanish and Portuguese Language and Literature at New York University and CLACS"},
+                    {es: "Moderador de sesión: Paulina Pineda, Assistant Professor of Spanish and Portuguese Language and Literature at New York University and CLACS"}
+                ],
+                image:"",
+                languages:""
+            },
             {
                 title: "Antolina (2014, 8 min. Paraguay)",
                 directors: ["Miguel Agüero"],
@@ -358,7 +388,18 @@ const filmsContentApril25 = [
             {en: "1:20 pm - Short Film Program: Borders Within"},
             {es: "13:20 - Programa de Cortos: Fronteras Internas"}
         ],
+        
         films: [
+            {
+                title: "",
+                directors: [""],
+                synopsis: [
+                    {en: "Session Moderator: Simón Ventura Trujillo, Assistant Professor of Latinx Studies in the English Department at New York University"},
+                    {es: "Moderador de sesión: Simón Ventura Trujillo, Assistant Professor of Latinx Studies in the English Department at New York University"}
+                ],
+                image:"",
+                languages:""
+            },
             {
                 title: "El cielo es muy bonito (2022, 17 min. Mexico)",
                 directors: ["Aracely Méndez"],
@@ -407,6 +448,16 @@ const filmsContentApril25 = [
             {es: "15:00 - Estreno Mundial"}
         ],
         films: [{
+                title: "",
+                directors: [""],
+                synopsis: [
+                    {en: "Session Moderator: Faye Ginsburg, David B. Kriser Professor of Anthropology and Director of the Center for Media, Culture and History at New York University"},
+                    {es: "Moderadora de sesión: Faye Ginsburg, David B. Kriser Professor of Anthropology and Director of the Center for Media, Culture and History at New York University"}
+                ],
+                image:"",
+                languages:""
+            },
+        {
             title: "Hosts for Half a Century: The Mỹky Version of History (2025, 40 min)",
             directors: ["André Lopes", "Typju Myky", "Colectivo de Cine Ijã Mytyli"],
             synopsis: [
@@ -424,6 +475,16 @@ const filmsContentApril25 = [
             {es: "17:00 - Largometraje"}
         ],
         films: [
+            {
+                title: "",
+                directors: [""],
+                synopsis: [
+                    {en: "Session Moderator: David Hernández Palmar,  Wayuu, IIPUANA Clan, Venezuela | filmmaker, independent curator and film programmer"},
+                    {es: "Moderador de sesión: David Hernández Palmar.  Wayuu, IIPUANA Clan, Venezuela | filmmaker, independent curator and film programmer"}
+                ],
+                image:"",
+                languages:""
+            },
             {
                 title: "Bila Burba (2023, 70 min. Panama)",
                 directors: ["Duiren Wagua"],
