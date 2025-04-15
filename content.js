@@ -461,8 +461,8 @@ const filmsContentApril25 = [
             title: "Hosts for Half a Century: The Mỹky Version of History (2025, 40 min)",
             directors: ["André Lopes", "Typju Myky", "Colectivo de Cine Ijã Mytyli"],
             synopsis: [
-                {en: "Premiere and conversation with André Lopes and Typju Myky of the Ijã Mytyli Cine Collective."},
-                {es: "Estreno mundial y conversación con André Lopes and Typju Myky del Colectivo de Cine Ijã Mytyli "}
+                {en: "Premiere and conversation with André Lopes and Typju Myky of the Ijã Mytyli Cine Collective. Contributing to the discussion: Faye Ginsburg, David B. Kriser Professor of Anthropology and Director of the Center for Media, Culture and History at NYU, and Amalia Cordova, Smithsonian Center for Folklife and Cultural Heritage."},
+                {es: "Estreno mundial y conversación con André Lopes and Typju Myky del Colectivo de Cine Ijã Mytyli. Contribuyendo a la platica: Faye Ginsburg, David B. Kriser Professor of Anthropology and Director of the Center for Media, Culture and History at NYU, y Amalia Cordova, Smithsonian Center for Folklife and Cultural Heritage."}
             ],
             image:"",
             languages: ""
