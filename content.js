@@ -12,8 +12,8 @@ const mainContent = {
         { es: "Acerca de" }
     ],
     organizersLink: [
-        { en: "Organizers" },
-        { es: "Coordinadores" }
+        { en: "CLACPI Delegates" },
+        { es: "Delegados de CLACPI" }
     ],
     title1: [
         { en: "5th CLACPI Indigenous Film Showcase" },
@@ -52,8 +52,8 @@ const mainContent = {
         { es: "Acerca de" }
     ],
     organizersH1: [
-        { en: "Organizers" },
-        { es: "Coordinadores" }
+        { en: "CLACPI Delegates" },
+        { es: "Delegados de CLACPI" }
     ],
     about1: [
         { en: "Presented by the Coordinadora Latinoaméricana de Cine y Comunicación de los Pueblos Indígenas (CLACPI)." },
@@ -440,6 +440,16 @@ const filmsContentApril25 = [
                 image:"",
                 languages: "Maya Chu, Español (Eng. Sub.)"
             },
+            {
+                title: "Burros (2021, 15min. USA)",
+                directors: ["Jefferson Stein"],
+                synopsis: [
+                    {en: "In southern Arizona, twenty miles from the Mexico border, a young Indigenous girl discovers a Latina migrant her age who has been separated from her father while traveling through the Tohono O’odham Nation into the United States."},
+                    {es: "En el sur de Arizona, a veinte millas de la frontera con México, una joven indígena descubre a una migrante latina de su edad que ha sido separada de su padre mientras viajaba a través de la Tohono O'odham Nation hacia los Estados Unidos."}
+                ],
+                image:"",
+                languages: "English, Spanish, O’odham (Eng. sub)"
+            }
         ],
     },
     {
@@ -447,16 +457,7 @@ const filmsContentApril25 = [
             {en: "3:00pm - World Premiere"},
             {es: "15:00 - Estreno Mundial"}
         ],
-        films: [{
-                title: "",
-                directors: [""],
-                synopsis: [
-                    {en: "Session Moderator: Faye Ginsburg, David B. Kriser Professor of Anthropology and Director of the Center for Media, Culture and History at New York University"},
-                    {es: "Moderadora de sesión: Faye Ginsburg, David B. Kriser Professor of Anthropology and Director of the Center for Media, Culture and History at New York University"}
-                ],
-                image:"",
-                languages:""
-            },
+        films: [
         {
             title: "Hosts for Half a Century: The Mỹky Version of History (2025, 40 min)",
             directors: ["André Lopes", "Typju Myky", "Colectivo de Cine Ijã Mytyli"],
@@ -464,7 +465,7 @@ const filmsContentApril25 = [
                 {en: "Premiere and conversation with André Lopes and Typju Myky of the Ijã Mytyli Cine Collective. Contributing to the discussion: Faye Ginsburg, David B. Kriser Professor of Anthropology and Director of the Center for Media, Culture and History at NYU, and Amalia Cordova, Smithsonian Center for Folklife and Cultural Heritage."},
                 {es: "Estreno mundial y conversación con André Lopes and Typju Myky del Colectivo de Cine Ijã Mytyli. Contribuyendo a la platica: Faye Ginsburg, David B. Kriser Professor of Anthropology and Director of the Center for Media, Culture and History at NYU, y Amalia Cordova, Smithsonian Center for Folklife and Cultural Heritage."}
             ],
-            image:"",
+            image:"host-half-century.jpg",
             languages: ""
         }
         ]
