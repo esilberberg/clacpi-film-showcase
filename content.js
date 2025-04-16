@@ -152,7 +152,7 @@ const filmsContentApril23 = [
         },
         {
             title: "Soberanía Narrativa en la Construcción de Movimientos | Narrative Sovereignty in Movement Building",
-            directors: ["Rocío Gomez (Warmi Cine)", "Eli Farinango (Kichwa Hatari)", "Tadii Angeles (Rebeldia Radio)", "Moderator: Emily Uruchima (Kichwa Hatari/CLACPI)" ],
+            directors: ["Rocío Gomez (Warmi Cine)", "Eli Farinango (Kichwa Hatari)", "Tadii Angeles (Rebeldia Radio)", "Moderator: Emily Uruchima (Kichwa Hatari, CLACPI, Water Protector Legal Collective)" ],
             synopsis: [
                 {en: "45 min + 10min Q&A"},
                 {es: "45 min + 10min Q&A"}
@@ -162,7 +162,7 @@ const filmsContentApril23 = [
         },
         {
             title: "Estrategias Organizativas en la Construcción de Movimientos | Organizing Strategies in Movement Building",
-            directors: ["Estefanía Lalvay (CONAIE)", "Prospero Martinez (Consejo de los Pueblos Originarios)", "Fabian Muenala (Kichwa Hatari)", "Andrés Tapia Arias (CONAIE)", "Moderator: Charlie Uruchima (Kichwa Hatari)"],
+            directors: ["Estefanía Lalvay (CONAIE)", "Prospero Martinez (Consejo de los Pueblos Originarios)", "Fabian Muenala (Kichwa Hatari)", "Moderator: Charlie Uruchima (Kichwa Hatari)"],
             synopsis: [
                 {en: "45 min + 10min Q&A"},
                 {es: "45 min + 10min Q&A"}
