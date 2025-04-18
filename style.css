@@ -168,7 +168,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 2rem;
     gap: 40px;
@@ -179,7 +179,11 @@ h2 {
 }
 
 
-.sponsor-images-content .sponsor:nth-child(9) img {
+.sponsor-images-content .sponsor:nth-child(4) img {
+    height: 45px;
+}
+
+.sponsor-images-content .sponsor:nth-child(5) img {
     height: 45px;
 }
 
@@ -188,13 +192,13 @@ h2 {
   height: 100px;
 }
 
-.sponsors-text-content {
+/* .sponsors-text-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
     font-size: 14px;
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 3rem auto 0 auto;
     padding: 0 2rem;
 }
@@ -204,7 +208,7 @@ h2 {
 }
 .sponsors-text-content a:hover {
     color: var(--gold);
-}
+} */
 
 .section-heading-light {
     color: white;
