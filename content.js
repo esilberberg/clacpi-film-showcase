@@ -362,7 +362,7 @@ const filmsContentApril24 = [
         ],
         films: [
             {
-                title: "A Transformacao do Canuto (2023, 131 min. Brazil)",
+                title: "A Transformação de Canuto (2023, 131 min. Brazil)",
                 directors: ["Ariel Kuaray Ortega", "Ernesto de Carvalho"],
                 synopsis: [
                     {en: "In a small Mbyá-Guarani community between Brazil and Argentina, everyone knows the name Canuto: a man who many years ago suffered the dreaded transformation into a Jaguar, and then died tragically. Now, a film is being made to tell his story. Why did this happen to him? But more importantly: who in the village should play his role?"},
