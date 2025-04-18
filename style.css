@@ -179,6 +179,11 @@ h2 {
 }
 
 
+.sponsor-images-content .sponsor:nth-child(9) img {
+    height: 45px;
+}
+
+
 .sponsor-images-content img {
   height: 100px;
 }
